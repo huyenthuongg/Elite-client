@@ -1,0 +1,190 @@
+
+/* HEARDER */
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    height: fit-content;
+}
+/* Navbar */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f5f5f5;
+    z-index: 1;
+    list-style: none;
+    font-size: 1 rem;
+    min-width: 200px;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+  
+  .dropdown-content a:hover {
+    text-decoration: underline;
+    text-decoration-color: #A7717E;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+    .nav-link:hover {background-color: hsla(14,29%,74%,.4);}
+
+    .navbar-collapse{
+        background-color: #f5f5f5;}
+.fs-20{
+    font-size: 1.25rem;
+}
+.fs-25{
+    font-size: 1.5rem;
+}
+.bg-beige{
+    background-color:#f5f5f5;
+}
+.bg-mask--gray{
+    background-color: rgba(34, 34, 34, 0.6);
+}
+.h-30px {
+    height: 30px;
+}
+.h-60px {
+    height: 60px;
+}
+.w-full {
+    width: 100%;
+}
+.h-full {
+    height: 100%;
+}
+.top-0 {
+    top: 0;
+}
+.left-0 {
+    left: 0;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+/* CONTENT */
+.content{
+    position: relative;
+    top: 8vh;
+}
+/* FOOTER */
+.p-4 {
+    display: flex;
+    justify-content: center;
+  }
+  .col{
+    flex: 1;
+    margin: 0 10px;
+  }
+  .row_li{
+    text-align: center;
+    color:black
+  }
+  .text-dark{
+    display: block;
+    padding-top: 15px;
+    text-decoration: none;
+  }
+  .Text_title{
+    text-align: center;
+  }
+  .footer{
+    background-color:rgba(249, 246, 231, 1) ;
+  }
+  /* FONT */
+  @font-face {
+    font-family: 'Brixton1';
+    src: url('./font/BrixtonBoldOblique.woff2') format('woff2'),
+        url('./font/BrixtonBoldOblique.woff') format('woff'),
+        url('./font/BrixtonBoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brixton2';
+    src: url('./font/BrixtonBold.woff2') format('woff2'),
+        url('./font/BrixtonBold.woff') format('woff'),
+        url('./font/BrixtonBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brixton3';
+    src: url('./font/BrixtonBookOblique.woff2') format('woff2'),
+        url('./font/BrixtonBookOblique.woff') format('woff'),
+        url('./font/BrixtonBookOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brixton4';
+    src: url('./font/BrixtonLightOblique.woff2') format('woff2'),
+        url('./font/BrixtonLightOblique.woff') format('woff'),
+        url('./font/BrixtonLightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brixton5';
+    src: url('./font/BrixtonBook.woff2') format('woff2'),
+        url('./font/BrixtonBook.woff') format('woff'),
+        url('./font/BrixtonBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brixton6';
+    src: url('./font/BrixtonMedium.woff2') format('woff2'),
+        url('./font/BrixtonMedium.woff') format('woff'),
+        url('./font/BrixtonMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brixton7';
+    src: url('./font/BrixtonLight.woff2') format('woff2'),
+        url('./font/BrixtonLight.woff') format('woff'),
+        url('./font/BrixtonLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brixton8';
+    src: url('./font/BrixtonMediumOblique.woff2') format('woff2'),
+        url('./font/BrixtonMediumOblique.woff') format('woff'),
+        url('./font/BrixtonMediumOblique.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+.brixton{
+    font-family: "Brixton5";
+}
