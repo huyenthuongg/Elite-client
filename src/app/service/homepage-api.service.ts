@@ -2,7 +2,7 @@ import { HttpClient, HttpErrorResponse, HttpHeaders } from
 '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { catchError, map, Observable, retry, throwError } from 'rxjs';
-import { Homepage } from 'hompage';
+import { Homepage } from 'src/app/model/hompage';
 
 @Injectable({
   providedIn: 'root'

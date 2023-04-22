@@ -4,13 +4,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { HttpClientModule } from '@angular/common/http';
-import { OurstoryComponent } from './components/ourstory/ourstory.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomepageComponent,
-    OurstoryComponent
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
