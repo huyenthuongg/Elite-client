@@ -104,7 +104,12 @@
   .footer{
     background-color:rgba(249, 246, 231, 1) ;
   }
-
+  
+/* CONTENT */
+.content{
+    position: relative;
+    top: 90px;
+}
 
   /* FONT */
   @font-face {
