@@ -1,0 +1,35 @@
+[
+  {
+    "Date": "03/01/2023",
+    "QuestionID": 1,
+    "ProductID": 4,
+    "Name": "Juliet",
+    "Email": "juli@gmail.com",
+    "QuestionDetail": " What length are the home try-on dresses? My daughter is trying on size 12’s and i need to know the length. Thank you"
+
+  },
+  {
+    "Date": "05/01/2023",
+    "QuestionID": 2,
+    "ProductID": 5,
+    "Name": "July",
+    "Email": "july@gmail.com",
+    "QuestionDetail": "  I will be purchasing this dress im 5’2 what length would you RECOMMEND ?"
+  },
+  {
+    "Date": "01/02/2023",
+    "QuestionID": 3,
+    "ProductID": 8,
+    "Name": "Havana",
+    "Email": "havana@gmail.com",
+    "QuestionDetail": "Do the home try on dresses come as a regular length?"
+  },
+  {
+    "Date": "20/03/2023",
+    "QuestionID": 4,
+    "ProductID": 9,
+    "Name": "Elsa",
+    "Email": "elsa@gmail.com",
+    "QuestionDetail": "How to clean the rory style dress? Is dry clean recommended??"
+  }
+]
