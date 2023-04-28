@@ -13,7 +13,7 @@
     position: relative;
     display: inline-block;
 }
-  
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -23,18 +23,18 @@
     font-size: 1 rem;
     min-width: 200px;
 }
-  
+
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
     display: block;
     text-decoration: none;
 }
-  
+
   .dropdown-content a:hover {
     text-decoration: underline;
     text-decoration-color: #A7717E;}
-  
+
   .dropdown:hover .dropdown-content {display: block;}
 
     .nav-link {padding-top: 0; padding-bottom: 0;}
@@ -42,7 +42,7 @@
     }
 
     .navbar-collapse{
-        background-color: #f5f5f5;}
+        background-color: rgba(249, 246, 231, 1);}
 .fs-20{
     font-size: 1.25rem;
 }
@@ -50,7 +50,7 @@
     font-size: 1.5rem;
 }
 .bg-beige{
-    background-color:#f5f5f5;
+    background-color:rgba(249, 246, 231, 1);
 }
 .bg-mask--gray{
     background-color: rgba(34, 34, 34, 0.6);
