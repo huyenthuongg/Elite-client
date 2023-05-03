@@ -1,9 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DetailBlogComponent } from './components/detail-blog/detail-blog.component';
+import { HomepageComponent } from './components/homepage/homepage.component';
+import { ProductDetailComponent } from "./components/product-detail/ProductDetailComponent";
 
 const routes: Routes = [
-  {path: 'detailblog',component:DetailBlogComponent}
+  { path: '', component: HomepageComponent },
+  { path: 'product-view/:id', component: ProductDetailComponent },
+  { path: 'product-view', component: ProductDetailComponent },
+  { path: 'color', component: ProductDetailComponent },
+  { path: 'fabric', component: ProductDetailComponent },
 ];
 
 @NgModule({

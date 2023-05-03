@@ -7,7 +7,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { MyProfileComponent } from './components/my-profile/my-profile.component';
 import { DetailBlogComponent } from './components/detail-blog/detail-blog.component';
-import { ProductDetailComponent } from './components/product-detail/product-detail.component';
+import { ProductDetailComponent } from "./components/product-detail/ProductDetailComponent";
 import { SizechartComponent } from './components/sizechart/sizechart.component';
 @NgModule({
   declarations: [
