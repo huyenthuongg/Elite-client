@@ -7,7 +7,7 @@ import { HomepageApiService } from 'src/app/service/homepage-api.service';
 })
 export class HomepageComponent {
   homepage:any;
-errMessage:string=''
+errMessage:string='' 
 constructor(public _service: HomepageApiService){
 this._service.getHomepage().subscribe({
 next:(data)=>{this.homepage=data},

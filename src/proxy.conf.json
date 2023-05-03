@@ -1,7 +1,15 @@
-{
+[{
     "context": ["/homepage"],
     "target": "http://localhost:3002",
     "secure": true,
     "changeOrigin":true,
     "logLevel":"debug"
+    },
+    {
+    "context": ["/ourstory"],
+    "target": "http://localhost:3002",
+    "secure": true,
+    "changeOrigin":true,
+    "logLevel":"debug"
     }
+]
