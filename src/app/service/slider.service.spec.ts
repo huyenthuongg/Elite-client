@@ -1,12 +1,13 @@
 import { TestBed } from '@angular/core/testing';
-import { HomepageApiService } from './homepage-api.service';
 
-describe('HomepageApiService', () => {
-  let service: HomepageApiService;
+import { SliderService } from './slider.service';
+
+describe('SliderService', () => {
+  let service: SliderService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(HomepageApiService);
+    service = TestBed.inject(SliderService);
   });
 
   it('should be created', () => {
