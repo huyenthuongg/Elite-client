@@ -8,12 +8,12 @@ import { ProductServiceService } from 'src/app/service/product-service.service';
 })
 export class HomepageComponent {
   homepage: any;
-  fashions: any;
+  fashion: any;
   errMessage: string = '';
   constructor(public _service: ProductServiceService) {
-    this._service.getProducts().subscribe({
+    this._service.getHomepage().subscribe({
       next: (data) => {
-        this.fashions = data;
+        this.homepage = data;
       },
       error: (err) => {
         this.errMessage = err;
@@ -21,4 +21,3 @@ export class HomepageComponent {
     });
   }
 }
-

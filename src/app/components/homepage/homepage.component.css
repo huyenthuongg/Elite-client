@@ -1,11 +1,10 @@
 @media screen and (max-width:1024px){
   .fl-wrap{
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-  }
-  .fs-20{
-      font-size: 10px;
-  }
+    flex-wrap: wrap;
+}
+.fs-20{
+    font-size: 10px;
+}
 }
 .button1{
   background-color: rgba(34, 34, 34, 0.6);

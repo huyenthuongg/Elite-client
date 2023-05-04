@@ -1,0 +1,77 @@
+<div class="container">
+    <div class="d-flex align-items-center">
+        <div class="">
+           <p class="fs-25">OUR FABRIC</p>
+           <p class="fs-20">Every piece in this collection is made-to- order, which means our dresses are made just for you based on your selections.</p>
+        </div>
+        <div>
+            <img src="/assets/shopbyFabric/bannerFabric.png" alt="">
+        </div>
+    </div>
+    <hr>
+    <div class="d-flex">
+        <div class="w-20vw">
+            <p class="fs-20">FABRIC</p>
+            <div class="text-alight-center">
+                <label class="checkbox">Satin
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+            </div>
+        </div>
+
+        <div class="w-full">
+            <div class="sort fs-18" >
+                <select name="sort" id="sort">
+                <option style="display: none;" value="sort">Sort</option>
+                <option value="a-z">Name: A - Z</option>
+                <option value="z-a">Name: Z - A </option>
+                <option value="low-high">Price: Low To High</option>
+                <option value="high-low">Price: High To Low</option>
+                </select>
+                <hr>
+            </div>
+            <div class=" d-flex justify-content-between fl-wrap text-center" style="flex-wrap: wrap;" *ngFor="let pro of products">
+                <div>
+                    <img src="/assets/shopbyFabric/1-Beige.webp" class="w-22vw" alt="">
+                    <p class="fs-20">{{pro.ProductName}}</p>
+                    <p>{{pro.MakeToOrder}}</p>
+                    <div class="d-flex justify-content-evenly ">
+                        <button class="button3">Make to order</button>
+                        <button class="button3">Ready to ship</button>
+                        <button class="button3">Home try on</button>
+                    </div>
+                </div>
+
+            <!-- PAGINATION -->
+            <div class="pagination p1 center">
+                <ul>
+                <a href="#"><li><</li></a>
+                <a class="is-active" href="#"><li>1</li></a>
+                <a href="#"><li>2</li></a>
+                <a href="#"><li>3</li></a>
+                <a href="#"><li>4</li></a>
+                <a href="#"><li>5</li></a>
+                <a href="#"><li>6</li></a>
+                <a href="#"><li>></li></a>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+<hr>
+
+    <!-- BEST SELLER -->
+    <div class=" d-flex justify-content-between fl-wrap text-center container my-5">
+        <div>
+            <img src="/assets/shopbyFabric/1-Beige.webp" class="w-20vw" alt="">
+            <p class="fs-20">Skye Satin Dress</p>
+            <p>$189.00</p>
+            <div class="d-flex">
+                <button class="button3">Make to order</button>
+                <button class="button3">Ready to ship</button>
+                <button class="button3">Home try on</button>
+            </div>
+        </div>
+    </div>
+</div>
