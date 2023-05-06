@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { OurStoryApiService } from 'src/app/service/our-story-api.service';
-
+import { OurStoryService } from 'src/app/service/our-story.service';
 @Component({
   selector: 'app-our-story',
   templateUrl: './our-story.component.html',
@@ -9,8 +8,8 @@ import { OurStoryApiService } from 'src/app/service/our-story-api.service';
 export class OurStoryComponent {
   ourstory:any;
   errMessage:string='' 
-  constructor(public _service: OurStoryApiService){
-  this._service.getOurStory().subscribe({
+  constructor(public _service: OurStoryService){
+  this._service.getStory().subscribe({
   next:(data)=>{this.ourstory=data},
   error:(err)=>{this.errMessage=err}
   })

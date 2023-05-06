@@ -1,0 +1,57 @@
+<div class="container my-5">
+<p class="fs-25 title">YOUR BAG</p>
+<hr>
+<div  class="d-flex fs-20">
+    <div>
+        <img class="w-30vw h-590" src="/assets/shopbyFabric/1-Beige.webp" alt="">
+    </div>
+    <div class="ms-7">
+        <div class="d-flex">
+            <p class="col-1">Dylan Velvet Dress</p>
+            <p>189.000</p>
+        </div>
+        <button class="button3 my-5">Make to order</button>
+        <div class="d-flex mt-3">
+            <p class="col-2">Size</p>
+            <p>26</p>
+        </div>
+        <div class="d-flex my-3">
+            <p class="col-2">Color</p>
+            <p>Green</p>
+        </div>
+        <div class="d-flex my-3">
+            <p class="col-2">Length</p>
+            <p></p>
+        </div>
+        <div class="d-flex my-3">
+            <p class="col-2">Delivery Time</p>
+            <p></p>
+        </div>
+
+        <!-- Quantity input -->  
+        <div class="d-flex justify-content-between mt-7">
+            <div class="quantity-input">
+                <button (click)="quantity = quantity - 1" [disabled]="quantity === 1">-</button>
+                <input type="number" [(ngModel)]="quantity" name="quantity">
+                <button (click)="quantity = quantity + 1">+</button>
+            </div>
+            <div>
+                <i class="bi bi-trash3" style="font-size: 25px;"></i>
+            </div>
+        </div>   
+    </div>
+</div>
+<hr>
+
+<!-- Check out -->
+<div class="d-flex justify-content-end py-4">
+    <div class="align-self-center">
+        <i class="bi bi-chevron-left"></i>
+        <a href="">CONTINUE TO SHOPPING</a>
+    </div>
+    <div>
+        <button class="button2 ms-5">CHECK OUT</button>
+    </div>
+
+</div>
+</div>

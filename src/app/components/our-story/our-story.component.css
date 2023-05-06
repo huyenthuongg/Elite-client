@@ -1,7 +1,7 @@
 .breadcrumb a{
     Color: inherit;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 17px;
 }
 .fs-20{
     font-size: 20px;
@@ -11,4 +11,12 @@
 }
 .w-30{
     width: 28vw;
+}
+.shop a{
+    text-decoration: none;
+    color: inherit;
+}
+.shop a:hover{
+    text-decoration: underline;
+    text-decoration-color: #A7717E;
 }

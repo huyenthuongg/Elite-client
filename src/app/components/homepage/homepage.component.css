@@ -6,12 +6,16 @@
         font-size: 10px;
     }
 }
+.brightness {filter: brightness(0.95);}
+.bg-mask--gray{
+    background-color: rgba(34, 34, 34, 0.6);
+}
 .button1{
     background-color: rgba(34, 34, 34, 0.6); 
     color: white; 
     border: none; 
     border-radius: 3%; 
-    height: 7vh
+    height: 8vh
 }
 .button1:hover{
     background-color: rgba(34, 34, 34, 0.7); 

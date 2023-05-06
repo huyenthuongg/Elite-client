@@ -1,16 +1,13 @@
-import { HttpClient, HttpErrorResponse, HttpHeaders } from
-'@angular/common/http';
+import { HttpClient, HttpErrorResponse, HttpHeaders } from'@angular/common/http';
 import { Injectable } from '@angular/core';
 import { catchError, map, Observable, retry, throwError } from 'rxjs';
-import { Homepage } from '../model/homepage';
-
+import { OurStory } from '../model/ourstory';
 @Injectable({
   providedIn: 'root'
 })
-export class HomepageApiService {
- 
+export class OurStoryService {
   constructor(private _http: HttpClient) { }
-  getHomepage():Observable<any>
+  getStory():Observable<any>
   {
   
   const headers=new HttpHeaders().set("Content-Type","text/plain;charset=utf-8")
@@ -19,8 +16,8 @@ export class HomepageApiService {
   headers:headers,
   responseType:"text"
   }
-  return this._http.get<any>("/homepage",requestOptions).pipe(
-  map(res=>JSON.parse(res) as Array<Homepage>),
+  return this._http.get<any>("/ourstory",requestOptions).pipe(
+  map(res=>JSON.parse(res) as Array<OurStory>),
   retry(3),
   catchError(this.handleError))
   }

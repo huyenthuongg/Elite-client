@@ -1,17 +1,25 @@
 import { Component } from '@angular/core';
-import { HomepageApiService } from 'src/app/service/homepage-api.service';
+import { SliderService } from 'src/app/service/slider.service';
+import { CrewService } from 'src/app/service/crew.service';
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent {
-  homepage:any;
+slider:any;
+crew: any; 
 errMessage:string='' 
-constructor(public _service: HomepageApiService){
-this._service.getHomepage().subscribe({
-next:(data)=>{this.homepage=data},
-error:(err)=>{this.errMessage=err}
-})
+constructor(public _serviceSlider: SliderService, public _serviceCrew: CrewService){
+
+this._serviceSlider.getSlider().subscribe({
+  next:(data)=>{this.slider=data},
+  error:(err)=>{this.errMessage=err}
+  });
+
+this._serviceCrew.getCrew().subscribe({
+  next:(data)=>{this.crew=data},
+  error:(err)=>{this.errMessage=err}
+  })
 }
 }
