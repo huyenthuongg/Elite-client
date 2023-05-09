@@ -1,0 +1,260 @@
+<div class="update_infor_main">
+  <div class="update_img">
+    <p class="update_p1">Your Account</p>
+    <img class="profile_img" src="../img/Cus-01.png" alt="" />
+    <div id="infor">
+      <p class="profile_name">Nguyen Hoang Tinh</p>
+      <img [src]="profilePicture" alt="Profile picture" />
+      <p class="profile_phone"><i>Update your Profile Picture</i></p>
+      <!-- <input id="uploadFile" placeholder="File Name here" disabled="disabled" /> -->
+      <div div class="fileUpload btn btn-primary">
+        <!-- <span>Choose File</span> -->
+        <button (click)="fileInput.click()" class="btn-choosefile">
+          Choose File
+        </button>
+        <input
+          type="file"
+          accept="image/*"
+          #fileInput
+          hidden
+          (change)="onFileSelected($event)"
+        />
+      </div>
+      <div>
+        <ul class="menu">
+          <div class="fun_1">
+            <li>
+              <img src="assets\myprofile\🦆 icon _profile circled_.png" /><a
+                class="icon_fun1"
+                href="#"
+                >My Profile</a
+              >
+              <ul class="submenu">
+                <li><a href="#" (click)="showEditPR()">Edit Profile</a></li>
+                <li>
+                  <a href="#" (click)="showChangePWPR()">Change Password</a>
+                </li>
+              </ul>
+            </li>
+          </div>
+          <div class="fun_2">
+            <li>
+              <img src="assets\myprofile\🦆 icon _delivery truck_.png" /><a
+                class="icon_fun"
+                href="#"
+                (click)="showOrderHistory()"
+                >Orders History</a
+              >
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Upadte Info -->
+  <div class="update_infor col-md-4" *ngIf="showEdit">
+    <p class="update_p1">UPDATE YOUR PROFILE</p>
+    <div class="form-row">
+      <label class="form__label" for="">First Name</label>
+      <input class="form-input" id="" type="text" />
+    </div>
+    <div class="form-row">
+      <label class="form__label" for="">Last Name</label>
+      <input class="form-input" type="text" />
+    </div>
+    <div class="form-row">
+      <label class="form__label" for="">Gender</label>
+      <form class="gender">
+        <input
+          checked="checked"
+          name="gioitinh"
+          type="radio"
+          class="gender"
+        /><span class="gender_text">Male</span>
+        <input name="gioitinh" type="radio" class="gender" /><span
+          class="gender_text"
+          >FeMale</span
+        >
+        <input name="gioitinh" type="radio" class="gender" /><span
+          class="gender_text"
+          >Others</span
+        >
+      </form>
+    </div>
+    <div class="form-row">
+      <label class="form__label" for="">Address</label>
+      <input class="form-input" type="text" />
+    </div>
+    <div class="form-row">
+      <label class="form__label" for="">Number Phone</label>
+      <input class="form-input" type="text" />
+    </div>
+    <div class="choose_container_update">
+      <button class="chosse_update">SAVE</button>
+    </div>
+  </div>
+  <div class="changePW" *ngIf="showChangePW">
+    <p class="update_p1">CHANGE YOUR PASSWORD</p>
+    <div class="form-row">
+      <label class="form__label" for="">Curent Password</label>
+      <input class="form-input" id="" type="text" />
+    </div>
+    <div class="form-row">
+      <label class="form__label" for="">New PassWord</label>
+      <input class="form-input" type="text" />
+    </div>
+    <div class="form-row">
+      <label class="form__label" for="">Confirm Password</label>
+      <input class="form-input" type="text" />
+    </div>
+    <div class="choose_container_update">
+      <button class="chosse_update">SAVE</button>
+    </div>
+  </div>
+  <!-- Order History -->
+  <div class="orderHistory_container col-md-4" *ngIf="showOrderHis">
+    <p class="update_p1">ORDERS HISTORY</p>
+    <div class="container_historyor" (click)="showReviewOH()">
+      <div class="container_historyor_left">
+        <p><b>#ELITE124</b></p>
+        <p><b>1. Sky Satin Dress</b></p>
+        <p>x1</p>
+        <p>Color: Blue</p>
+        <p>Fabrics:</p>
+        <img
+          src="\assets\myprofile\abigail-chiffon_lifestyle_main-hover 3.png"
+        />
+      </div>
+      <div class="container_historyor_right">
+        <div>
+          <p>
+            <img src="\assets\myprofile\check-circle.png" /> <b>Delivery</b>
+          </p>
+        </div>
+        <p>$189.000</p>
+        <h4 class="total">TOTAL: $189.000</h4>
+        <div>
+          <button class="btn-orhis">Review</button>
+          <button class="btn-orhis">Buy Again</button>
+        </div>
+      </div>
+    </div>
+    <hr class="line" />
+    <div class="container_historyor">
+      <div class="container_historyor_left">
+        <p><b>#ELITE124</b></p>
+        <p><b>1. Sky Satin Dress</b></p>
+        <p>x1</p>
+        <p>Color: Blue</p>
+        <p>Fabrics:</p>
+        <img
+          src="\assets\myprofile\abigail-chiffon_lifestyle_main-hover 3.png"
+        />
+      </div>
+      <div class="container_historyor_right">
+        <div>
+          <p>
+            <img src="\assets\myprofile\material-symbols_cancel-rounded.png" />
+            <b>Cancel</b>
+          </p>
+        </div>
+        <p>$189.000</p>
+        <h4 class="total">TOTAL: $189.000</h4>
+        <div>
+          <button class="btn-orhis">Review</button>
+          <button class="btn-orhis">Buy Again</button>
+        </div>
+      </div>
+    </div>
+    <hr class="line" />
+    <div class="container_historyor">
+      <div class="container_historyor_left">
+        <p><b>#ELITE124</b></p>
+        <p><b>1. Sky Satin Dress</b></p>
+        <p>x1</p>
+        <p>Color: Blue</p>
+        <p>Fabrics:</p>
+        <img
+          src="\assets\myprofile\abigail-chiffon_lifestyle_main-hover 3.png"
+        />
+      </div>
+      <div class="container_historyor_right">
+        <div>
+          <p>
+            <img src="\assets\myprofile\ic_round-send.png" /> <b>Delivering</b>
+          </p>
+        </div>
+        <p>$189.000</p>
+        <h4 class="total">TOTAL: $189.000</h4>
+        <div>
+          <button class="btn-orhis">Review</button>
+          <button class="btn-orhis">Buy Again</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- --REVIEW Order History-- -->
+  <div class="reviewOH_container col-md-4" *ngIf="showReview">
+    <p class="update_p1">ORDERS HISTORY</p>
+    <div class="container_review">
+      <div class="container_historyor_left">
+        <p><b>#ELITE124</b></p>
+        <div class="reviewSP">
+          <div>
+            <img
+              src="\assets\myprofile\abigail-chiffon_lifestyle_main-hover 3.png"
+              height="120px"
+            />
+          </div>
+          <div class="info_sp">
+            <p><b>1. Sky Satin Dress</b></p>
+            <p>x1</p>
+            <p>Color: Blue</p>
+            <p>Fabrics:</p>
+          </div>
+        </div>
+        <div>
+          <img
+            src="\assets\myprofile\Group 35939.png"
+            width="300px"
+            height="50px"
+          />
+          <div class="cmt_review">
+            <div>
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Text"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="status">
+          <p>
+            <img src="\assets\myprofile\ic_round-send.png" /> <b>Delivering</b>
+          </p>
+        </div>
+        <div class="btn-review">
+          <button class="btn-up">
+            <img src="\assets\myprofile\🦆 icon _camera_.png" alt="Image" />
+            <p>Choose Image</p>
+          </button>
+          <button class="btn-up">
+            <img
+              src="\assets\myprofile\🦆 icon _video camera_.png"
+              alt="Image"
+            />
+            <p>Choose Video</p>
+          </button>
+        </div>
+        <div>
+          <button class="btn-orhis1">POST</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="container_historyor_right"></div> -->
+</div>

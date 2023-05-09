@@ -1,0 +1,14 @@
+.breadcrumb a{
+    Color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.w-30{
+    width: 28vw;
+}

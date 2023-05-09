@@ -1,0 +1,44 @@
+<div class="flex-box">
+  <h2>
+  <a (click)="showDivBlog('ELITE IRL')">
+   ELITE IRL
+  </a>
+</h2>
+  <div>
+    <h2>
+      <a
+        (click)="showDivBlog('Inspiration')"
+        >Inspiration</a
+      >
+    </h2>
+  </div>
+</div>
+<div *ngIf="showIRL" class="item" id="IRL">
+  <div  class="img">
+    <img src="\assets\blog\bridesmaids_1024x1024 1.png" class="img-full">
+  </div>
+  <div class="content">
+    <p class="name"> Our Favorite
+    </p>
+    <p class="daynews">11:30:29, Jan 2, 2023</p>
+    <p class="detail">Eloping and micro-weddings have seen a rise in popularity due to COVID, and they are here to stay! Whether it’s you and your love, or you bring a few guests, each elopement is unique in its own way. Let's take a peek at some of our favorite elopements!....</p>
+    <div class="seemore-box">
+      <button class="add" (click)="goToDetailBlog()">See More</button>
+    </div>
+  </div>
+</div>
+<div *ngIf="showIns" class="item" id="Ins">
+  <div  class="img">
+    <img src="\assets\blog\bridesmaids_1024x1024_ins.png" class="img-full">
+  </div>
+  <div class="content">
+    <p class="name"> Inspiration
+    </p>
+    <p class="daynews">11:30:29, Jan 2, 2023</p>
+    <p class="detail">Eloping and micro-weddings have seen a rise in popularity due to COVID, and they are here to stay! Whether it’s you and your love, or you bring a few guests, each elopement is unique in its own way. Let's take a peek at some of our favorite elopements!....</p>
+    <div class="seemore-box">
+      <button class="add" (click)="goToDetailBlog()">See More</button>
+    </div>
+  </div>
+</div>
+

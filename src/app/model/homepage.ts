@@ -1,6 +1,7 @@
 export class Homepage{
-    constructor(
+  constructor(
     public _id:any=null,
-    public name:string="",
-    public image:string=""){}
-    }
+    public name: string,
+    public image: string,
+  ) {}
+}
