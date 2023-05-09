@@ -1,0 +1,93 @@
+/* Font size */
+.fs-20{
+    font-size: 20px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-40{
+    font-size: 40px;
+}
+.f-bold{
+    font-family: Brixton2;
+}
+/* Width and heigh */
+.w-40{
+    width: 40%;
+}
+.w-50{
+    width: 50%;
+}
+.w-86{
+    width: 86%;
+}
+.w-full{
+    width: 100%;
+}
+.h-full{
+    height: 100%;
+}
+.h-200{
+    height: 126px;
+}
+.w-10vw{
+    width: 10vw;
+}
+.w-12vw{
+    width: 12vw;
+}
+.w-15vw{
+    width: 15vw;
+}
+.w-20vw{
+    width: 20vw;
+}
+.w-25vw{
+    width: 25vw;
+}
+.w-30vw{
+    width: 30vw;
+}
+.w-50vw{
+    width: 50vw;
+}
+/* Contact */
+td{
+    padding: 10px;
+}
+/* Address */
+select{
+    width: 86%;
+    height: 45px;
+    margin: 10px;     
+    outline: none;     
+    border: 2px solid #D9D9D9; 
+    border-radius: 7px;     
+    padding: 10px;                                                   
+}
+.address input{
+    margin: 20px 10px;
+    height: 45px;
+    border: 2px solid #D9D9D9;     
+    border-radius: 7px;
+    padding: 10px;
+}
+.vl {
+    border-left: 1px solid #A7717E;
+    height: 100%;
+    left: 50%;
+    top: 0;
+  }
+
+/* Product */
+.product{
+    height: 300px;
+    overflow: auto;
+}
+.col1{
+    min-width: 90%;
+}
+.payment{
+    border: 2px solid #A7717E;
+    border-radius: 3px;
+}

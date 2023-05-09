@@ -10,13 +10,19 @@ import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { CartComponent } from './components/cart/cart.component';
 import { FormsModule } from '@angular/forms';
+import { PaymentComponent } from './components/payment/payment.component';
+import { ShopByColorComponent } from './components/shop-by-color/shop-by-color.component';
+import { PromotionComponent } from './components/promotion/promotion.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
     OurStoryComponent,
     ShopByFabricComponent,
-    CartComponent
+    CartComponent,
+    PaymentComponent,
+    ShopByColorComponent,
+    PromotionComponent
   ],
   imports: [
     BrowserModule,
