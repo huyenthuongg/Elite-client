@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
+
 import { ProductServiceService } from 'src/app/service/product-service.service';
+
 
 @Component({
   selector: 'app-homepage',
@@ -8,6 +10,7 @@ import { ProductServiceService } from 'src/app/service/product-service.service';
 })
 export class HomepageComponent {
   homepage: any;
+
   fashion: any;
   errMessage: string = '';
   constructor(public _service: ProductServiceService) {

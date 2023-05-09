@@ -1,9 +1,16 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppRoutingModule} from './app-routing.module';
+
+
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { LoginpageComponent } from './components/loginpage/loginpage.component';
+import { RegisterpageComponent } from './components/registerpage/registerpage.component';
+import { ForgotpasswordComponent } from './components/forgotpassword/forgotpassword.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 import { OurStoryComponent } from './components/our-story/our-story.component';
 import { ShopByFabricComponent } from './components/shop-by-fabric/shop-by-fabric.component';
 import { BlogComponent } from './components/blog/blog.component';
@@ -17,6 +24,11 @@ import { SizechartComponent } from './components/sizechart/sizechart.component';
   declarations: [
     AppComponent,
     HomepageComponent,
+
+    LoginpageComponent,
+    RegisterpageComponent,
+    ForgotpasswordComponent,
+
     OurStoryComponent,
     ShopByFabricComponent,
     SizechartComponent,
@@ -24,15 +36,19 @@ import { SizechartComponent } from './components/sizechart/sizechart.component';
     DetailBlogComponent,
     MyProfileComponent,
     BlogComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   exports:[],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule {
 }

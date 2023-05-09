@@ -1,0 +1,52 @@
+<div class="container">
+  <form action="#">
+    <h1>CREATE AN ACCOUNT</h1>
+    <div class="person-name">
+      <div class="mb-3">
+        <input type="text" #name="ngModel" name="firstName" class="form-control no-icon" id="FormControlInput1" placeholder="FIRST NAME" [(ngModel)]="userAccount.firstName"/>
+      </div>
+      <div class="mb-3 input-lastname">
+        <input type="text" #name="ngModel" name="lastName" class="form-control no-icon" id="FormControlInput2" placeholder="LAST NAME" [(ngModel)]="userAccount.lastName"/>
+      </div>
+    </div>
+    <div class="mb-3">
+      <i class="bi bi-envelope"></i>
+      <input type="text" name="email" class="form-control" id="FormControlInput3" placeholder="EMAIL" [(ngModel)]="userAccount.email" #email="ngModel"  required
+      pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"/>
+      <div *ngIf="email.errors && email.dirty">
+        <small class="text-danger" *ngIf="email.errors?.['required']">Email is required</small>
+        <small class="text-danger" *ngIf="email.errors?.['pattern']">Please provide a valid email address</small>
+      </div>
+    </div>
+    <div class="mb-3">
+      <i class="bi bi-lock"></i>
+      <input type="text" #name="ngModel" name="password" class="form-control" id="FormControlInput4" placeholder="PASSWORD"
+          [type]="showPassword ? 'text' : 'password'" name="password" [(ngModel)]="userAccount.password" #password="ngModel"  pattern="^[a-zA-Z0-9_!@#$%^&*()_+\-=[\]{}|;:'`,./?\s]{6,}$"/>
+          <div *ngIf="password.errors && password.dirty">
+            <small class="text-danger" *ngIf="password.errors?.['required']">PassWord is required</small>
+            <small class="text-danger" *ngIf="password.errors?.['pattern']">Password must have at least 6 character(s)</small>
+          </div>
+      <div>
+        <i [class]="showPassword ? 'bi bi-eye' : 'bi bi-eye-slash'" (click)="togglePasswordVisibility()"></i>
+      </div>
+    </div>
+    <!-- <div class="mb-3 input-no-icon">
+      <input class="form-control no-icon" id="FormControlInput5" placeholder="ADDRESS" />
+      <div></div>
+    </div> -->
+    <div class="mb-3 input-no-icon">
+      <input type="text" #phone="ngModel" name="phoneNumber" class="form-control no-icon " id="FormControlInput6" placeholder="PHONE NUMBER" [(ngModel)]="userAccount.phoneNumber" required pattern="^\+?[0-9]{10,}$" maxlength="10"/>
+      <div *ngIf="phone.errors && phone.dirty">
+        <small class="text-danger" *ngIf="phone.errors?.['required']">Phone Number is required</small>
+        <small class="text-danger" *ngIf="phone.errors?.['pattern']">Password must have exactly 10 characters</small>
+      </div>
+      <div class="bi"></div>
+    </div>
+    <div>
+      <button class="button-main" type="submit" (click)="postUser()">CREATE</button>
+    </div>
+    <div>
+      <button class="button-notmain" (click)="loginpage()">ALREADY HAVE ACCOUNT? <span>LOGIN</span></button>
+    </div>
+  </form>
+</div>

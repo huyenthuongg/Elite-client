@@ -1,0 +1,95 @@
+form {
+  margin-top: 100px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  color: #000000;
+}
+input {
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 40px;
+  width: 500px;
+  transition: 0.3s;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.person-name {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.person-name input {
+  width: 240px;
+}
+.input-lastname {
+  margin-left: 20px;
+}
+/* input:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+} */
+.bi-envelope{
+  position: relative;
+  margin: 10px 0 0 10px;
+  left: -235px;
+  top: 35px;
+}
+.bi-lock{
+  position: relative;
+  margin: 30px 0 0 10px;
+  left: -235px;
+  top: 35px;
+}
+.bi-eye, .bi-eye-slash{
+  position: relative;
+  left: 230px;
+  top: -35px;
+  margin: 30px 0 0 0px;
+}
+.input-no-icon::placeholder {
+  color: #aaa;
+  font-size: 14px;
+
+}
+::placeholder {
+  color: #aaa;
+}
+.input-no-icon{
+  padding-bottom: 24px;
+}
+.button-main {
+  width: 500px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #9D9D9D;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.button-main:hover {
+  background-color: #000000;
+}
+.button-notmain {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  color: #A7717E;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+span {
+  font-weight: bold;
+
+}
+.no-icon{
+  padding-left: 15px!important;
+}
