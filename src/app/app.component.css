@@ -41,8 +41,8 @@
     .nav-link:hover {background-color: hsla(14,29%,74%,.4);
     }
 
-    .navbar-collapse{
-        background-color: #f5f5f5;}
+    /* .navbar-collapse{
+        background-color: #f5f5f5;} */
 .fs-20{
     font-size: 1.25rem;
 }
@@ -50,7 +50,7 @@
     font-size: 1.5rem;
 }
 .bg-beige{
-    background-color:#f5f5f5;
+  background-color: rgb(248, 246, 237);
 }
 .bg-mask--gray{
     background-color: rgba(34, 34, 34, 0.6);
@@ -102,14 +102,13 @@
     text-align: center;
   }
   .footer{
-    background-color:rgba(249, 246, 231, 1) ;
-    margin-top: 90px;
+    background-color:rgb(248, 246, 237) ;
   }
-
 /* CONTENT */
 .content{
     position: relative;
     top: 90px;
+    padding-bottom: 8vh;
 }
 
   /* FONT */

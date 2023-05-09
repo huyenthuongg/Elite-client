@@ -3,50 +3,61 @@
   {
     "ProductID": 1,
     "ProductName": "Athena Satin Dress",
-    "FabricID": "1",
-    "PromotionID": "",
+    "Fabric": {
+      "FabricID": 1,
+      "FabricName": "Satin",
+      "FabricDetail": "Satin bridesmaid dresses add elegance and beauty to your wedding party. Our high-quality satin dress collection is perfect for formal or boho weddings, but we offer various styles for bridesmaids to choose from. Our customers can try on satin dresses, skirts, and tops through our online store. Our satin dresses come in white pearl, soft champagne, champagne gold, taupe, blush, rose quartz, desert rose, cinnamon rose, terracotta rust, cabernet, and French blue. In addition, you�ll also find hues such as romantic blue, indie blue, navy blue, black, silver, eucalyptus, silver sage, deep olive, and classic emerald. Shop our selection of styles and colors below for your satin bridesmaid dresses."
+    },
     "note": "BestSellers",
     "ProductDetail": "Our new Athena Satin dress will be sure to stun everyone with its beautiful criss-cross halter neck that ties in the back and a thin band keyhole back detail. Athena is made to be fitted as a looser slip dress but also features a zipper for your bridesmaids to slip into the dress with more ease. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/athena-satin_lifestyle_main-hover.png?v=1674845503",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Blue",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/athena-satin_blushing-bride.jpg?v=1674845424"
       },
-      "Color2": {
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/athena-satin_blushing-bride.jpg?v=1674845424"
       },
-      "Color3": {
+      {
         "Name": "Champagne",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/athena-satin_gold-champagne_1.jpg?v=1674845424"
       }
+    ],
+      "MakeToOrder": "189.00",
+      "HomeTryOn": "10.00",
+      "ReadyToShip": "245.00"
     },
-    "MakeToOrder": "189.00",
-    "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00"
-  },
   {
     "ProductID": 2,
     "ProductName": "Cora Chiffon Dress",
-    "FabricID": "2",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 2,
+      "FabricName": "Chiffon",
+      "FabricDetail": "Our Chiffon is a plain-woven fabric that is breathable, soft, and flowy. This airy Chiffon is made of 100% Polyester and has a slightly translucent top layer of fabric. We double line these pieces to give you comfort and elegance. This is a lightweight fabric that has minimal stretch and can be worn any time of year."
+    },
+    "Promotion": {
+      "PromotionID": 1,
+      "PromotionName": "Happy Women's' Day",
+      "PrxomotionRate": 10
+    },
     "ProductDetail": "Our Cora Chiffon dress is the sweetest addition to your bridal party, with its cute ruffled cap sleeves and flowing skirt, you'll be sure to�be dazzling all night!�Cora features illusion mesh at the bust for modest coverage and a double-banded waistline that ties in the back for�another unique detail.",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/cora-chiffon_lifestyle_main-hover.png?v=1671634072",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/cora-chiffon_lifestyle_main-featured.png?v=1669841915"
       },
-      "Color2": {
+      {
         "Name": "Green",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/cora-chiffon_rosemary_5eb5dd65-eeb6-4ce6-9384-40d82475532d.jpg?v=1671634072"
       },
-      "Color3": {
+      {
         "Name": "Purple",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/cora-chiffon_lavender_b977a81e-69b0-4f51-91d6-f73c588181c4.jpg?v=1671634072"
       }
-    },
+    ],
     "MakeToOrder": "169.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "225.00"
@@ -54,24 +65,32 @@
   {
     "ProductID": 3,
     "ProductName": "Dylan Velvet Dress",
-    "FabricID": "3",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 3,
+      "FabricName": "Velvet",
+      "FabricDetail": "Velvet dresses have made a huge comeback. Consider bridesmaid velvet dresses for your fall or winter wedding. Made from lightweight velvet fabric, we have various styles and colors to choose from. Our customers can get velvet bridesmaids dresses in dresses, pants, skirts, and tops. We also have available colors such as white pearl, champagne, mustard, blush, dusty rose, purple, dusty purple, romantic rose, sage, olive, classic emerald, indie blue, royal blue, desert blue, slate blue, navy blue, black, terracotta, emerald, burgundy, and earth tones. These colors can come in various styles. Pick the best bridesmaid velvet dresses for your wedding party today"
+    },
+    "Promotion": {
+      "PromotionID": 1,
+      "PromotionName": "Happy Women's' Day",
+      "PrxomotionRate": 10
+    },
     "ProductDetail": "Our Dylan dress is a showstopper with its plunging v-neckline and effortless criss-cross straps creating a stunning open-back design! The thick shoulder straps have a gathering detail to match the gathered waistband which then flows into the clean lines of the criss-cross back straps, all playing into the sexy but timeless design! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/dylan-velvet_lifestyle_main-hover.jpg?v=1669830509",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Green",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/dylan-velvet_lifestyle_02.png?v=1669830509"
       },
-      "Color2": {
+      {
         "Name": "Orange",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/dylan-velvet_rust_1.jpg?v=1669830498"
       },
-      "Color3": {
+      {
         "Name": "Blue",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/dylan-velvet_desert-blue.jpg?v=1669830498"
       }
-    },
+    ],
     "MakeToOrder": "169.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "225.00"
@@ -79,25 +98,28 @@
   {
     "ProductID": 4,
     "ProductName": "Harper Chiffon Faux Wrap Dress",
-    "FabricID": "2",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 2,
+      "FabricName": "Chiffon",
+      "FabricDetail": "Our Chiffon is a plain-woven fabric that is breathable, soft, and flowy. This airy Chiffon is made of 100% Polyester and has a slightly translucent top layer of fabric. We double line these pieces to give you comfort and elegance. This is a lightweight fabric that has minimal stretch and can be worn any time of year."
+    },
     "note": "BestSellers",
     "ProductDetail": "Our Harper Chiffon dress got an upgrade with her faux-wrap design, and you won't want to take her off! Harper features an elegant silhouette with modest coverage, a flattering self-tie waist, and feminine ruffled sleeves - this dress and its flirty details are sure to make your heart skip a beat!",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/harper-chiffon_lifestyle_main-hover_2.png?v=1671575880",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Blue",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/harper-chiffon_lifestyle_main-featured_1.png?v=1669919962"
       },
-      "Color2": {
+      {
         "Name": "Green",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/harper-chiffon_lifestyle_main-hover_2.png?v=1671575880"
       },
-      "Color3": {
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/harper-chiffon_antique-blush_02.jpg?v=1671575880"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -105,25 +127,28 @@
   {
     "ProductID": 5,
     "ProductName": "Jade Satin Dress",
-    "FabricID": "1",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 1,
+      "FabricName": "Satin",
+      "FabricDetail": "Satin bridesmaid dresses add elegance and beauty to your wedding party. Our high-quality satin dress collection is perfect for formal or boho weddings, but we offer various styles for bridesmaids to choose from. Our customers can try on satin dresses, skirts, and tops through our online store. Our satin dresses come in white pearl, soft champagne, champagne gold, taupe, blush, rose quartz, desert rose, cinnamon rose, terracotta rust, cabernet, and French blue. In addition, you�ll also find hues such as romantic blue, indie blue, navy blue, black, silver, eucalyptus, silver sage, deep olive, and classic emerald. Shop our selection of styles and colors below for your satin bridesmaid dresses."
+    },
     "note": "BestSellers",
     "ProductDetail": "Our Jade Satin dress is an alluring one-shoulder option perfect for a modern greek goddess vibe. With delicate left-side ruching that creates additional tummy coverage, this silhouette can flatter any waistline. This elegant style pairs perfectly with our Dawson and Rory dresses for a beautiful wedding look! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/jade-satin_main-hover.jpg?v=1672253282",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Purple",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/jade-satin_lifestyle_main-featured.png?v=1669062596"
       },
-      "Color2": {
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/jade-satin_lifestyle_1.png?v=1670622366"
       },
-      "Color3": {
+      {
         "Name": "Champagne",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/jade-satin_gold-champagne.jpg?v=1670622366"
       }
-    },
+    ],
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "235.00"
@@ -131,24 +156,32 @@
   {
     "ProductID": 6,
     "ProductName": "Jade Velvet Dress",
-    "FabricID": "3",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 3,
+      "FabricName": "Velvet",
+      "FabricDetail": "Velvet dresses have made a huge comeback. Consider bridesmaid velvet dresses for your fall or winter wedding. Made from lightweight velvet fabric, we have various styles and colors to choose from. Our customers can get velvet bridesmaids dresses in dresses, pants, skirts, and tops. We also have available colors such as white pearl, champagne, mustard, blush, dusty rose, purple, dusty purple, romantic rose, sage, olive, classic emerald, indie blue, royal blue, desert blue, slate blue, navy blue, black, terracotta, emerald, burgundy, and earth tones. These colors can come in various styles. Pick the best bridesmaid velvet dresses for your wedding party today"
+    },
+    "Promotion": {
+      "PromotionID": 1,
+      "PromotionName": "Happy Women's' Day",
+      "PrxomotionRate": 10
+    },
     "ProductDetail": "Our Jade Velvet dress is an alluring one-shoulder option perfect for a modern greek goddess vibe. With delicate left-side ruching that creates additional tummy coverage, this silhouette can flatter any waistline. This elegant style pairs perfectly with our Dawson and Rory dresses for a beautiful wedding look! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/jade-velvet_lifestyle_main-hover.jpg?v=1670602823",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Blue",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/jade-velvet_lifestyle_main-featured_4bb788fc-7cb1-4ce8-bb5e-040de6cd83f0.png?v=1670602823"
       },
-      "Color2": {
+      {
         "Name": "Green",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/jade-velvet_rosemary.jpg?v=1670602808"
       },
-      "Color3": {
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/jade-velvet_romantic-rose.jpg?v=1670602808"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -156,24 +189,32 @@
   {
     "ProductID": 7,
     "ProductName": "Rava Satin Dress",
-    "FabricID": "1",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 1,
+      "FabricName": "Satin",
+      "FabricDetail": "Satin bridesmaid dresses add elegance and beauty to your wedding party. Our high-quality satin dress collection is perfect for formal or boho weddings, but we offer various styles for bridesmaids to choose from. Our customers can try on satin dresses, skirts, and tops through our online store. Our satin dresses come in white pearl, soft champagne, champagne gold, taupe, blush, rose quartz, desert rose, cinnamon rose, terracotta rust, cabernet, and French blue. In addition, you�ll also find hues such as romantic blue, indie blue, navy blue, black, silver, eucalyptus, silver sage, deep olive, and classic emerald. Shop our selection of styles and colors below for your satin bridesmaid dresses."
+    },
+    "Promotion": {
+      "PromotionID": 1,
+      "PromotionName": "Happy Women's' Day",
+      "PrxomotionRate": 10
+    },
     "ProductDetail": "Glam up your bridal party with our alluring Rava dress, now available in our satin collection! Rava features gathered fabric at the waistband and is finished off with our highest slit yet among all our styles, creating an elegant and modern dress you won't want to take off! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/rava-satin_lifestyle_02.jpg?v=1672256050",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "White",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/rava-satin_lifestyle_main-featured.png?v=1669650057"
       },
-      "Color2": {
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/rava-satin_fuchsia.jpg?v=1671573083"
       },
-      "Color3": {
+      {
         "Name": "Purple",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/rava-satin_dusty-plum.jpg?v=1671573083"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -181,25 +222,28 @@
   {
     "ProductID": 8,
     "ProductName": "Rory Satin Dress",
-    "FabricID": "1",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 1,
+      "FabricName": "Satin",
+      "FabricDetail": "Satin bridesmaid dresses add elegance and beauty to your wedding party. Our high-quality satin dress collection is perfect for formal or boho weddings, but we offer various styles for bridesmaids to choose from. Our customers can try on satin dresses, skirts, and tops through our online store. Our satin dresses come in white pearl, soft champagne, champagne gold, taupe, blush, rose quartz, desert rose, cinnamon rose, terracotta rust, cabernet, and French blue. In addition, you�ll also find hues such as romantic blue, indie blue, navy blue, black, silver, eucalyptus, silver sage, deep olive, and classic emerald. Shop our selection of styles and colors below for your satin bridesmaid dresses."
+    },
     "note": "BestSellers",
     "ProductDetail": "Our popular satin dress, Rory will have you feeling comfortable and confident all day and night! This classic style features a gathering detail on the front left side that offers tummy coverage and a fitted but more forgiving bodice to flatter every body type and size! Rory pairs beautifully with our Dawson and Jade dresses, creating the ultimate bridal lineup for your big day.  ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/rory-satin_lifestyle_main-hover.png?v=1672252371",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Champagne",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/rory-satin_lifestyle_main-featured.png?v=1669062008"
       },
-      "Color2": {
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/rory-satin_fuchsia_1.jpg?v=1672249276"
       },
-      "Color3": {
+      {
         "Name": "White",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/rory-satin_white-pearl_1.jpg?v=1672249276"
       }
-    },
+    ],
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "235.00"
@@ -207,25 +251,28 @@
   {
     "ProductID": 9,
     "ProductName": "Rosalie Tulle Convertible Dress",
-    "FabricID": "4",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 4,
+      "FabricName": "Tulle",
+      "FabricDetail": "Our Tulle is a lightweight hexagonal woven fabric, made of 100% polyester fibers. This soft Tulle is always double lined with a proper dyed to match lining, so your colors are always unison to one another. Our Tulle does not carry an elastane meaning there is no stretch, but not to worry as this fabric is used to create our soft, delicate, and flowy silhouettes."
+    },
     "note": "BestSellers",
     "ProductDetail": "One affordable gown, 10+ looks, and a thrilled bridal party are all totally possible with our Rosalie Tulle Convertible dress! Use the removable shoulder straps and three long sashes to twist, tie, and shape a look that matches each of your bridesmaids' personalities while keeping a cohesive lineup! Rosalie includes three tulle self-tie sashes and two pairs of removable tulle straps; converts using straps and small interior buttons. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/rosalie-tulle_lifestyle_main-hover_1.jpg?v=1669928139",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Green",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/rosalie-tulle_lifestyle_main-featured.png?v=1669928139"
       },
-      "Color2": {
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/rosalie-tulle_lifestyle_5.jpg?v=1669928139"
       },
-      "Color3": {
+      {
         "Name": "Champagne",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/rosalie-tulle_lifestyle_6.jpg?v=1669928139"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -233,25 +280,28 @@
   {
     "ProductID": 10,
     "ProductName": "Skye Chiffon Dress",
-    "FabricID": "2",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 2,
+      "FabricName": "Chiffon",
+      "FabricDetail": "Our Chiffon is a plain-woven fabric that is breathable, soft, and flowy. This airy Chiffon is made of 100% Polyester and has a slightly translucent top layer of fabric. We double line these pieces to give you comfort and elegance. This is a lightweight fabric that has minimal stretch and can be worn any time of year."
+    },
     "note": "BestSellers",
     "ProductDetail": "Our best-selling Skye dress is now available in our Chiffon fabric! Skye is a fresh take on a classic gown that will have you feeling comfortable and elegant all night long! This style features a fitted slip dress design with a modern cowl neckline and double slits in the skirt. Skye also comes in our Satin, Velvet, Crepe, and Sequin fabrics to mix and match your wedding look!",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/skye-chiffon_lifestyle_main-hover_1.jpg?v=1669053877",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/skye-chiffon_lifestyle_main-featured.png?v=1669053407"
       },
-      "Color2": {
+      {
         "Name": "Blue",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/skye-chiffon_french-blue_1.jpg?v=1669053783"
       },
-      "Color3": {
+      {
         "Name": "Orange",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/skye-chiffon_rust-orange_1.jpg?v=1669053783"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -259,25 +309,28 @@
   {
     "ProductID": 11,
     "ProductName": "Skye Satin Dress",
-    "FabricID": "1",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 1,
+      "FabricName": "Satin",
+      "FabricDetail": "Satin bridesmaid dresses add elegance and beauty to your wedding party. Our high-quality satin dress collection is perfect for formal or boho weddings, but we offer various styles for bridesmaids to choose from. Our customers can try on satin dresses, skirts, and tops through our online store. Our satin dresses come in white pearl, soft champagne, champagne gold, taupe, blush, rose quartz, desert rose, cinnamon rose, terracotta rust, cabernet, and French blue. In addition, you�ll also find hues such as romantic blue, indie blue, navy blue, black, silver, eucalyptus, silver sage, deep olive, and classic emerald. Shop our selection of styles and colors below for your satin bridesmaid dresses."
+    },
     "note": "BestSellers",
     "ProductDetail": "Our Skye dress is a fresh take on a classic gown that will have you feeling comfortable and elegant all night long! This style features a fitted slip dress design with a modern cowl neckline and double slits in the skirt that will make it the most popular style among your whole bridal party. Skye also comes in midi-length for a more playful look. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/skye-satin_copper_lifestyle_main-hover.jpg?v=1672246984",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/skye-satin_fuchsia_lifestyle_1.jpg?v=1671571294"
       },
-      "Color2": {
+      {
         "Name": "Orange",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/skye-satin_rust_02_1.jpg?v=1671571294"
       },
-      "Color3": {
+      {
         "Name": "Purple",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/skye-satin_dusty-plum.jpg?v=1671571294"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -285,25 +338,28 @@
   {
     "ProductID": 12,
     "ProductName": "Abigail Chiffon Dress",
-    "FabricID": "2",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 2,
+      "FabricName": "Chiffon",
+      "FabricDetail": "Our Chiffon is a plain-woven fabric that is breathable, soft, and flowy. This airy Chiffon is made of 100% Polyester and has a slightly translucent top layer of fabric. We double line these pieces to give you comfort and elegance. This is a lightweight fabric that has minimal stretch and can be worn any time of year."
+    },
     "note": "BestSellers",
     "ProductDetail": "A classic bridesmaid style, our versatile Abigail Chiffon dress will be a hit with everyone in your bridal party! Abigail's convertible neckline and whimsical flutter sleeves allow your wedding party to mix and match their personality with a one-shoulder, two-shoulder, or off-the-shoulder look while still creating that cohesive line-up. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/abigail-chiffon_lifestyle_main-hover.jpg?v=1669925979",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Blue",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/abigail-chiffon_lifestyle_3.jpg?v=1669925177"
       },
-      "Color2": {
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/abigail-chiffon_antique-blush.jpg?v=1669925177"
       },
-      "Color3": {
+      {
         "Name": "White",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/abigail-chiffon_white-pearl.jpg?v=1669925177"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -311,25 +367,28 @@
   {
     "ProductID": 13,
     "ProductName": "Abigail Tulle Dress",
-    "FabricID": "4",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 4,
+      "FabricName": "Tulle",
+      "FabricDetail": "Our Tulle is a lightweight hexagonal woven fabric, made of 100% polyester fibers. This soft Tulle is always double lined with a proper dyed to match lining, so your colors are always unison to one another. Our Tulle does not carry an elastane meaning there is no stretch, but not to worry as this fabric is used to create our soft, delicate, and flowy silhouettes."
+    },
     "note": "BestSellers",
     "ProductDetail": "A classic bridesmaid style, our versatile Abigail Tulle dress will be a hit with everyone in your bridal party! Abigail's convertible neckline and whimsical flutter sleeves allow your wedding party to mix and match their personality with a one-shoulder, two-shoulder, or off-the-shoulder look while still creating that cohesive line-up. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/abigail-tulle_lifestyle_main-hover.png?v=1675099595",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "White",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/abigail-tulle_lifestyle_main-featured.png?v=1675099491"
       },
-      "Color2": {
+      {
         "Name": "Orange",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/abigail-tulle_rust.jpg?v=1675099491"
       },
-      "Color3": {
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/abigail-tulle_cabernet.jpg?v=1675099491"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -337,25 +396,28 @@
   {
     "ProductID": 14,
     "ProductName": "Ainsley Chiffon Dress",
-    "FabricID": "2",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 2,
+      "FabricName": "Chiffon",
+      "FabricDetail": "Our Chiffon is a plain-woven fabric that is breathable, soft, and flowy. This airy Chiffon is made of 100% Polyester and has a slightly translucent top layer of fabric. We double line these pieces to give you comfort and elegance. This is a lightweight fabric that has minimal stretch and can be worn any time of year."
+    },
     "note": "BestSellers",
     "ProductDetail": "The Ainsley Chiffon dress provides the modest classic style in the front, but a refreshed flirty design in the back that will keep you partying from day to night! Ainsley features a simple camisole top with a cute cut-out back that flows into an airy chiffon skirt. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ainsley-chiffon_burgundy_lifestyle_main-hover.jpg?v=1665071079",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ainsley-chiffon_burgundy_lifestyle_main-hover.jpg?v=1662651619"
       },
-      "Color2": {
+      {
         "Name": "Champagne",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ainsley-chiffon_sand_1.jpg?v=1663603845"
       },
-      "Color3": {
+      {
         "Name": "Blue",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ainsley-chiffon_french-blue_02.jpg?v=1662651619"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -363,25 +425,28 @@
   {
     "ProductID": 15,
     "ProductName": "Alma Chiffon Dress",
-    "FabricID": "2",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 2,
+      "FabricName": "Chiffon",
+      "FabricDetail": "Our Chiffon is a plain-woven fabric that is breathable, soft, and flowy. This airy Chiffon is made of 100% Polyester and has a slightly translucent top layer of fabric. We double line these pieces to give you comfort and elegance. This is a lightweight fabric that has minimal stretch and can be worn any time of year."
+    },
     "note": "BestSellers",
     "ProductDetail": "Our Alma dress is both a modern and romantic chiffon style that features a cute double waistline detail making it the dream dress for your big day! Alma is a modest style in her fit and has more coverage at the bust from the skin-tone illusion mesh design allowing her to flatter every body type. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/alma-chiffon_lifestyle_main-hover.png?v=1669920987",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Blue",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/alma-chiffon_lifestyle_main-hover.png?v=1669920955"
       },
-      "Color2": {
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/alma-chiffon_blushing-bride.jpg?v=1669920955"
       },
-      "Color3": {
+      {
         "Name": "Orange",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/alma-chiffon_rust-orange.jpg?v=1669920955"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -389,24 +454,32 @@
   {
     "ProductID": 16,
     "ProductName": "Alma Tulle Dress",
-    "FabricID": "4",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 4,
+      "FabricName": "Tulle",
+      "FabricDetail": "Our Tulle is a lightweight hexagonal woven fabric, made of 100% polyester fibers. This soft Tulle is always double lined with a proper dyed to match lining, so your colors are always unison to one another. Our Tulle does not carry an elastane meaning there is no stretch, but not to worry as this fabric is used to create our soft, delicate, and flowy silhouettes."
+    },
+    "Promotion": {
+      "PromotionID": 1,
+      "PromotionName": "Happy Women's' Day",
+      "PrxomotionRate": 10
+    },
     "ProductDetail": "Our Alma Tulle dress is both a modern and romantic style that features a cute double waistline detail making it the dream dress for your big day! Alma is a modest style in her fit and has more coverage at the bust from the skin-tone illusion mesh design allowing her to flatter every body type.",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/alma-tulle_lifestyle_main-hover.png?v=1675094936",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/alma-tulle_lifestyle.png?v=1675094994"
       },
-      "Color2": {
+      {
         "Name": "Champagne",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/alma-tulle_champagne.jpg?v=1675094854"
       },
-      "Color3": {
+      {
         "Name": "Green",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/alma-tulle_classic-emerald.jpg?v=1675094854"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -414,24 +487,32 @@
   {
     "ProductID": 17,
     "ProductName": "Amelia Chiffon Dress",
-    "FabricID": "2",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 2,
+      "FabricName": "Chiffon",
+      "FabricDetail": "Our Chiffon is a plain-woven fabric that is breathable, soft, and flowy. This airy Chiffon is made of 100% Polyester and has a slightly translucent top layer of fabric. We double line these pieces to give you comfort and elegance. This is a lightweight fabric that has minimal stretch and can be worn any time of year."
+    },
+    "Promotion": {
+      "PromotionID": 1,
+      "PromotionName": "Happy Women's' Day",
+      "PrxomotionRate": 10
+    },
     "ProductDetail": "Our Amelia Chiffon dress is a flawless style that is the missing piece to your bridal lineup! Amelia has divine ruffled tiers, short flutter sleeves, and a moderate v-neck to provide a playful, but romantic style. Pair this style with our Harley Chiffon dress to add some textures to your dreamy wedding look! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/amelia-chiffon_lifestyle_main-hover.png?v=1671635835",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Blue",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/amelia-chiffon_lifestyle_main-featured.png?v=1669845094"
       },
-      "Color2": {
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/amelia-chiffon_lifestyle_main-hover.png?v=1671635835"
       },
-      "Color3": {
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/amelia-chiffon_burgundy_01_1.jpg?v=1671635835"
       }
-    },
+    ],
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "235.00"
@@ -439,24 +520,32 @@
   {
     "ProductID": 18,
     "ProductName": "Ariel Convertible Crepe Dress",
-    "FabricID": "6",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 6,
+      "FabricName": "Crepe",
+      "FabricDetail": "Our Crepe is a lightweight, plain woven fabric made out of 100% polyester. This smooth Crepe has 4-way stretch that gives the wearer a graceful silhouette as well as a body shaping feel. Our Crepe is not just breathable, but moisture-wicking as well, which makes it comfortable for all climates."
+    },
+    "Promotion": {
+      "PromotionID": 1,
+      "PromotionName": "Happy Women's' Day",
+      "PrxomotionRate": 10
+    },
     "ProductDetail": "Our Ariel Convertible Crepe dreFs is a polished style for any bridesmaid that wants to transform their look from day to night! This dress features detachable off-the-shoulder sleeves that snap on and off with small buttons on the inside bust of the dress letting the bridal party go from an elegant day look to dancing the night away in a strapless and flirty gown.",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ariel-crepe_lifestyle_main-hover.png?v=1675113215",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ariel-crepe_cabernet_02.jpg?v=1675113170"
       },
-      "Color2": {
+      {
         "Name": "Champagne",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ariel-crepe_gold-champagne_02.jpg?v=1675113170"
       },
-      "Color3": {
+      {
         "Name": "Green",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ariel-crepe_classic-emerald_02.jpg?v=1675113170"
       }
-    },
+    ],
     "MakeToOrder": "169.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "225.00"
@@ -464,24 +553,32 @@
   {
     "ProductID": 19,
     "ProductName": "Ariel Convertible Satin Dress",
-    "FabricID": "1",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 1,
+      "FabricName": "Satin",
+      "FabricDetail": "Satin bridesmaid dresses add elegance and beauty to your wedding party. Our high-quality satin dress collection is perfect for formal or boho weddings, but we offer various styles for bridesmaids to choose from. Our customers can try on satin dresses, skirts, and tops through our online store. Our satin dresses come in white pearl, soft champagne, champagne gold, taupe, blush, rose quartz, desert rose, cinnamon rose, terracotta rust, cabernet, and French blue. In addition, you�ll also find hues such as romantic blue, indie blue, navy blue, black, silver, eucalyptus, silver sage, deep olive, and classic emerald. Shop our selection of styles and colors below for your satin bridesmaid dresses."
+    },
+    "Promotion": {
+      "PromotionID": 1,
+      "PromotionName": "Happy Women's' Day",
+      "PrxomotionRate": 10
+    },
     "ProductDetail": "Our Ariel Convertible Satin dress is a polished style for any bridesmaid that wants to transform their look from day to night! This dress features detachable off-the-shoulder sleeves that snap on and off with small buttons on the inside bust of the dress letting the bridal party go from an elegant day look to dancing the night away in a strapless and flirty gown.",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ariel-satin_lifestyle_main-hover.png?v=1672256441",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ariel-satin_lifestyle_main-featured.png?v=1669647526"
       },
-      "Color2": {
+      {
         "Name": "Purple",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ariel-satin_dusty-plum.jpg?v=1671573415"
       },
-      "Color3": {
+      {
         "Name": "Orange",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ariel-satin_rust.jpg?v=1671573415"
       }
-    },
+    ],
     "MakeToOrder": "169.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "225.00"
@@ -489,24 +586,32 @@
   {
     "ProductID": 20,
     "ProductName": "Ariel Convertible Velvet Dress",
-    "FabricID": "3",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 3,
+      "FabricName": "Velvet",
+      "FabricDetail": "Velvet dresses have made a huge comeback. Consider bridesmaid velvet dresses for your fall or winter wedding. Made from lightweight velvet fabric, we have various styles and colors to choose from. Our customers can get velvet bridesmaids dresses in dresses, pants, skirts, and tops. We also have available colors such as white pearl, champagne, mustard, blush, dusty rose, purple, dusty purple, romantic rose, sage, olive, classic emerald, indie blue, royal blue, desert blue, slate blue, navy blue, black, terracotta, emerald, burgundy, and earth tones. These colors can come in various styles. Pick the best bridesmaid velvet dresses for your wedding party today"
+    },
+    "Promotion": {
+      "PromotionID": 1,
+      "PromotionName": "Happy Women's' Day",
+      "PrxomotionRate": 10
+    },
     "ProductDetail": "Our Ariel Convertible Velvet dress is a polished style for any bridesmaid that wants to transform their look from day to night! This dress features detachable off-the-shoulder sleeves that snap on and off with small buttons on the inside bust of the dress letting the bridal party go from an elegant day look to dancing the night away in a strapless and flirty gown.",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ariel-velvet_lifestyle_main-hover_1.jpg?v=1664473768",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ariel-velvet_romantic-rose_main-featured_lifestyle.jpg?v=1662654713"
       },
-      "Color2": {
+      {
         "Name": "Blue",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ariel-velvet_desert-blue.jpg?v=1662654713"
       },
-      "Color3": {
+      {
         "Name": "Champagne",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ariel-velvet_champagne.jpg?v=1662654713"
       }
-    },
+    ],
     "MakeToOrder": "169.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "225.00"
@@ -514,24 +619,32 @@
   {
     "ProductID": 21,
     "ProductName": "Asher Crepe Dress",
-    "FabricID": "6",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 6,
+      "FabricName": "Crepe",
+      "FabricDetail": "Our Crepe is a lightweight, plain woven fabric made out of 100% polyester. This smooth Crepe has 4-way stretch that gives the wearer a graceful silhouette as well as a body shaping feel. Our Crepe is not just breathable, but moisture-wicking as well, which makes it comfortable for all climates."
+    },
+    "Promotion": {
+      "PromotionID": 1,
+      "PromotionName": "Happy Women's' Day",
+      "PrxomotionRate": 10
+    },
     "ProductDetail": "Our Asher Crepe dress is a modern style that is the perfect dress to add to your wedding party look! The simple front design keeps it sleek while the criss-cross straps in the back create a beautiful and flirty open back design",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/asher-crepe_lifestyle_main-hover.jpg?v=1670256973",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Blue",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/asher-crepe_lifestyle_main.png?v=1670256973"
       },
-      "Color2": {
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/asher-crepe_cabernet.jpg?v=1670256973"
       },
-      "Color3": {
+      {
         "Name": "Champagne",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/asher-crepe_gold-champagne.jpg?v=1670256973"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -539,24 +652,32 @@
   {
     "ProductID": 22,
     "ProductName": "Asher Velvet Dress",
-    "FabricID": "3",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 3,
+      "FabricName": "Velvet",
+      "FabricDetail": "Velvet dresses have made a huge comeback. Consider bridesmaid velvet dresses for your fall or winter wedding. Made from lightweight velvet fabric, we have various styles and colors to choose from. Our customers can get velvet bridesmaids dresses in dresses, pants, skirts, and tops. We also have available colors such as white pearl, champagne, mustard, blush, dusty rose, purple, dusty purple, romantic rose, sage, olive, classic emerald, indie blue, royal blue, desert blue, slate blue, navy blue, black, terracotta, emerald, burgundy, and earth tones. These colors can come in various styles. Pick the best bridesmaid velvet dresses for your wedding party today"
+    },
+    "Promotion": {
+      "PromotionID": 1,
+      "PromotionName": "Happy Women's' Day",
+      "PrxomotionRate": 10
+    },
     "ProductDetail": "Our Asher Velvet dress is a modern style that is the perfect dress to add to your wedding party look! The simple front design keeps it sleek while the criss-cross straps in the back create a beautiful and flirty open back design. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/asher-velvet_lifestyle_main-hover.jpg?v=1669831278",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/asher-velvet_lifestyle_main-featured.png?v=1669831278"
       },
-      "Color2": {
+      {
         "Name": "Green",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/asher-velvet_rosemary.jpg?v=1669831271"
       },
-      "Color3": {
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/asher-velvet_blush.jpg?v=1669831271"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -564,24 +685,32 @@
   {
     "ProductID": 23,
     "ProductName": "Aurora Velvet Dress",
-    "FabricID": "3",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 3,
+      "FabricName": "Velvet",
+      "FabricDetail": "Velvet dresses have made a huge comeback. Consider bridesmaid velvet dresses for your fall or winter wedding. Made from lightweight velvet fabric, we have various styles and colors to choose from. Our customers can get velvet bridesmaids dresses in dresses, pants, skirts, and tops. We also have available colors such as white pearl, champagne, mustard, blush, dusty rose, purple, dusty purple, romantic rose, sage, olive, classic emerald, indie blue, royal blue, desert blue, slate blue, navy blue, black, terracotta, emerald, burgundy, and earth tones. These colors can come in various styles. Pick the best bridesmaid velvet dresses for your wedding party today"
+    },
+    "Promotion": {
+      "PromotionID": 1,
+      "PromotionName": "Happy Women's' Day",
+      "PrxomotionRate": 10
+    },
     "ProductDetail": "A gorgeous and unique bridesmaid dress you didn't know you needed, this one-sleeve style is a stunner with asymmetrical details! The Aurora Velvet dress features a side knot detail in the front with dainty buttons holding the two-inch cuff on the sleeve together. This dress is all the romance and elegance that you are looking for to complete your wedding look!",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/aurora-velvet_romantic-rose_lifestyle_main-hover_1.jpg?v=1675102903",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/aurora-velvet_lifestyle_main-featured.png?v=1669828009"
       },
-      "Color2": {
+      {
         "Name": "Green",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/aurora-velvet_rosemary.jpg?v=1675102859"
       },
-      "Color3": {
+      {
         "Name": "Neutral",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/aurora-velvet_mustard.jpg?v=1675102859"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -589,24 +718,27 @@
   {
     "ProductID": 24,
     "ProductName": "Bardot Crepe Dress",
-    "FabricID": "6",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 6,
+      "FabricName": "Crepe",
+      "FabricDetail": "Our Crepe is a lightweight, plain woven fabric made out of 100% polyester. This smooth Crepe has 4-way stretch that gives the wearer a graceful silhouette as well as a body shaping feel. Our Crepe is not just breathable, but moisture-wicking as well, which makes it comfortable for all climates."
+    },
     "ProductDetail": "Our dazzling Bardot Crepe dress is a timeless fit-and-flare style that is perfect for the bride looking to add some elegance to her big day! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-crepe_lifestyle_main-hover_2.jpg?v=1670259967",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-crepe_lifestyle_main-featured.png?v=1670259944"
       },
-      "Color2": {
+      {
         "Name": "White",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-crepe_lifestyle_5.jpg?v=1670259944"
       },
-      "Color3": {
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-crepe_cabernet.jpg?v=1670259944"
       }
-    },
+    ],
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "235.00"
@@ -615,24 +747,32 @@
 
     "ProductID": 25,
     "ProductName": "Bardot Satin Dress",
-    "FabricID": "1",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 1,
+      "FabricName": "Satin",
+      "FabricDetail": "Satin bridesmaid dresses add elegance and beauty to your wedding party. Our high-quality satin dress collection is perfect for formal or boho weddings, but we offer various styles for bridesmaids to choose from. Our customers can try on satin dresses, skirts, and tops through our online store. Our satin dresses come in white pearl, soft champagne, champagne gold, taupe, blush, rose quartz, desert rose, cinnamon rose, terracotta rust, cabernet, and French blue. In addition, you�ll also find hues such as romantic blue, indie blue, navy blue, black, silver, eucalyptus, silver sage, deep olive, and classic emerald. Shop our selection of styles and colors below for your satin bridesmaid dresses."
+    },
+    "Promotion": {
+      "PromotionID": 1,
+      "PromotionName": "Happy Women's' Day",
+      "PrxomotionRate": 10
+    },
     "ProductDetail": "Our dazzling Bardot Satin dress is a timeless fit-and-flare style that is perfect for the bride looking to add some elegance to her big day! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-satin_lifestyle_main-hover.png?v=1670536137",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-satin_lifestyle_main-hover.png?v=1670536048"
       },
-      "Color2": {
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-satin_lifestyle_main-featured.png?v=1669651003"
       },
-      "Color3": {
+      {
         "Name": "Champagne",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-satin_gold-champagne.jpg?v=1670536048"
       }
-    },
+    ],
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "235.00"
@@ -641,24 +781,27 @@
 
     "ProductID": 26,
     "ProductName": "Bardot Sequin Dress",
-    "FabricID": 5,
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 5,
+      "FabricName": "Sequin",
+      "FabricDetail": "Sequin bridesmaid dresses are sparkling options that provide glamour and glitter. They are one of the latest trends that can be worn all year and mix-and-match with different fabrics. Sequin dresses offer a combination of elegance, traditional styles, and classic looks in one. Adding sequins to your bridesmaids� styles will make your wedding colors pop and stand out. We have a selection of dresses, pants, skirts, and tops to choose from. Our styles can come in silver, champagne gold, rose gold, gold, cabernet, matte rose gold, navy blue, charcoal, black, and emerald. Try on our sequin bridesmaid dresses at home now! We ship them right to your door."
+    },
     "ProductDetail": "Our dazzling Bardot Sequin dress is a timeless fit-and-flare style that is perfect for the bride looking to add some elegance to her big day! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-sequin_lifestyle_main-hover_2.jpg?v=1670017353",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Neutral",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-sequin_gold.jpg?v=1670017250"
       },
-      "Color2": {
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-sequin_cabernet.jpg?v=1670017250"
       },
-      "Color3": {
+      {
         "Name": "Blue",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-sequin_navy-blue.jpg?v=1670017250"
       }
-    },
+    ],
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "235.00"
@@ -667,24 +810,27 @@
 
     "ProductID": 27,
     "ProductName": "Bardot Velvet Dress",
-    "FabricID": "3",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 3,
+      "FabricName": "Velvet",
+      "FabricDetail": "Velvet dresses have made a huge comeback. Consider bridesmaid velvet dresses for your fall or winter wedding. Made from lightweight velvet fabric, we have various styles and colors to choose from. Our customers can get velvet bridesmaids dresses in dresses, pants, skirts, and tops. We also have available colors such as white pearl, champagne, mustard, blush, dusty rose, purple, dusty purple, romantic rose, sage, olive, classic emerald, indie blue, royal blue, desert blue, slate blue, navy blue, black, terracotta, emerald, burgundy, and earth tones. These colors can come in various styles. Pick the best bridesmaid velvet dresses for your wedding party today"
+    },
     "ProductDetail": "Our dazzling Bardot Velvet dress is a timeless fit-and-flare style that is perfect for the bride looking to add some elegance to her big day! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-velvet_black_lifestyle_main-hover_1.jpg?v=1669829206",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Green",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-velvet_lifestyle_main-featured.png?v=1669829206"
       },
-      "Color2": {
+      {
         "Name": "Neutral",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-velvet_black_lifestyle_main-hover_1.jpg?v=1669829206"
       },
-      "Color3": {
+      {
         "Name": "Champagne",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-velvet_champagne.jpg?v=1669829206"
       }
-    },
+    ],
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "235.00"
@@ -693,24 +839,27 @@
 
     "ProductID": 28,
     "ProductName": "Bella Tulle Dress",
-    "FabricID": "4",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 4,
+      "FabricName": "Tulle",
+      "FabricDetail": "Our Tulle is a lightweight hexagonal woven fabric, made of 100% polyester fibers. This soft Tulle is always double lined with a proper dyed to match lining, so your colors are always unison to one another. Our Tulle does not carry an elastane meaning there is no stretch, but not to worry as this fabric is used to create our soft, delicate, and flowy silhouettes."
+    },
     "ProductDetail": "The Bella Tulle dress is an instant with a flattering ruched waist, full skirt, and one-shoulder illusion silhouette. Flattering and elegant, it's a must for the modern bridesmaid looking for that perfect classic style.",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bella-tulle_lifestyle_main-hover_1.jpg?v=1669929037",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bella-tulle_lifestyle_main-featured.png?v=1669929020"
       },
-      "Color2": {
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bella-tulle_cabernet.jpg?v=1669929018"
       },
-      "Color3": {
+      {
         "Name": "Blue",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bella-tulle_dusty-blue.jpg?v=1669929018"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -719,24 +868,27 @@
 
     "ProductID": 29,
     "ProductName": "Bijou Sequin Dress",
-    "FabricID": "5",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 5,
+      "FabricName": "Sequin",
+      "FabricDetail": "Sequin bridesmaid dresses are sparkling options that provide glamour and glitter. They are one of the latest trends that can be worn all year and mix-and-match with different fabrics. Sequin dresses offer a combination of elegance, traditional styles, and classic looks in one. Adding sequins to your bridesmaids� styles will make your wedding colors pop and stand out. We have a selection of dresses, pants, skirts, and tops to choose from. Our styles can come in silver, champagne gold, rose gold, gold, cabernet, matte rose gold, navy blue, charcoal, black, and emerald. Try on our sequin bridesmaid dresses at home now! We ship them right to your door."
+    },
     "ProductDetail": "When the occasion calls for full glam, chose the dress that will be sure to shine all night long! The Bijou Sequin dress combines a classic V-neck, ruched waist, and full skirt for a flattering and confident look on any body type!",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bijou-sequin_lifestyle_main-hover_1.jpg?v=1670015034",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Neutral",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bijou-sequin_rose-gold.jpg?v=1670015063"
       },
-      "Color2": {
+      {
         "Name": "Green",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bijou-sequin_emerald_01.jpg?v=1670015063"
       },
-      "Color3": {
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bijou-sequin_cabernet_02.jpg?v=1670015063"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -745,24 +897,27 @@
 
     "ProductID": 30,
     "ProductName": "Billie Satin Dress",
-    "FabricID": "1",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 1,
+      "FabricName": "Satin",
+      "FabricDetail": "Satin bridesmaid dresses add elegance and beauty to your wedding party. Our high-quality satin dress collection is perfect for formal or boho weddings, but we offer various styles for bridesmaids to choose from. Our customers can try on satin dresses, skirts, and tops through our online store. Our satin dresses come in white pearl, soft champagne, champagne gold, taupe, blush, rose quartz, desert rose, cinnamon rose, terracotta rust, cabernet, and French blue. In addition, you�ll also find hues such as romantic blue, indie blue, navy blue, black, silver, eucalyptus, silver sage, deep olive, and classic emerald. Shop our selection of styles and colors below for your satin bridesmaid dresses."
+    },
     "ProductDetail": "Our Billie Satin dress is a fun and modern take on a classic style! Billie features a slight cowl neckline, straps that crisscross in the back for another unique detail, and then is finished off with faux satin buttons on the left side of the skirt that runs into a flirty thigh-high slit. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/billie-satin_lifestyle_hover.jpg?v=1672260467",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Green",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/billie-satin_lifestyle_main-featured_1a62de30-dcac-4c3f-b65a-474b31c22533.jpg?v=1662661145"
       },
-      "Color2": {
+      {
         "Name": "Orange",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/billie-satin_lifestyle_5c5bba32-60e6-42d2-a9f1-2d55655eb291.jpg?v=1666033726"
       },
-      "Color3": {
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/billie-satin_fuchsia_01.jpg?v=1666033716"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -770,24 +925,27 @@
   {
     "ProductID": 31,
     "ProductName": "Billie Velvet Dress",
-    "FabricID": "3",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 3,
+      "FabricName": "Velvet",
+      "FabricDetail": "Velvet dresses have made a huge comeback. Consider bridesmaid velvet dresses for your fall or winter wedding. Made from lightweight velvet fabric, we have various styles and colors to choose from. Our customers can get velvet bridesmaids dresses in dresses, pants, skirts, and tops. We also have available colors such as white pearl, champagne, mustard, blush, dusty rose, purple, dusty purple, romantic rose, sage, olive, classic emerald, indie blue, royal blue, desert blue, slate blue, navy blue, black, terracotta, emerald, burgundy, and earth tones. These colors can come in various styles. Pick the best bridesmaid velvet dresses for your wedding party today"
+    },
     "ProductDetail": "Our Billie Velvet dress is a fun and modern take on a classic style! Billie features a slight cowl neckline, straps that crisscross in the back for another unique detail, and then is finished off with faux buttons on the left side of the skirt that runs into a flirty thigh-high slit. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/billie-velvet_lifestyle_main-hover.png?v=1669829645",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/billie-velvet_lifestyle_main-featured.png?v=1669829635"
       },
-      "Color2": {
+      {
         "Name": "Champagne",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/billie-velvet_champagne.jpg?v=1669829626"
       },
-      "Color3": {
+      {
         "Name": "Blue",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/billie-velvet_desert-blue.jpg?v=1669829626"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -795,24 +953,27 @@
   {
     "ProductID": 32,
     "ProductName": "Blair Chiffon Dress",
-    "FabricID": "2",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 2,
+      "FabricName": "Chiffon",
+      "FabricDetail": "Our Chiffon is a plain-woven fabric that is breathable, soft, and flowy. This airy Chiffon is made of 100% Polyester and has a slightly translucent top layer of fabric. We double line these pieces to give you comfort and elegance. This is a lightweight fabric that has minimal stretch and can be worn any time of year."
+    },
     "ProductDetail": "Our Blair Chiffon dress is a timeless silhouette that everyone will want in their bridal lineup! This dress features stylized pleats that meet at the left side front of the waistline to help create a refined faux version of the widely known wrap dress. Blair is fit to flatter all types of figures and this modest style will still have you feeling confident and sexy all night long!",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-chiffon_desert-rose_main-hover_lifestyle.jpg?v=1669917737",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-chiffon_lifestyle_main-featured.png?v=1669917737"
       },
-      "Color2": {
+      {
         "Name": "Orange",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-chiffon_rust-orange.jpg?v=1669917737"
       },
-      "Color3": {
+      {
         "Name": "Purple",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-chiffon_lavender.jpg?v=1669917737"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -820,24 +981,27 @@
   {
     "ProductID": 33,
     "ProductName": "Blair Satin Dress",
-    "FabricID": "1",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 1,
+      "FabricName": "Satin",
+      "FabricDetail": "Satin bridesmaid dresses add elegance and beauty to your wedding party. Our high-quality satin dress collection is perfect for formal or boho weddings, but we offer various styles for bridesmaids to choose from. Our customers can try on satin dresses, skirts, and tops through our online store. Our satin dresses come in white pearl, soft champagne, champagne gold, taupe, blush, rose quartz, desert rose, cinnamon rose, terracotta rust, cabernet, and French blue. In addition, you�ll also find hues such as romantic blue, indie blue, navy blue, black, silver, eucalyptus, silver sage, deep olive, and classic emerald. Shop our selection of styles and colors below for your satin bridesmaid dresses."
+    },
     "ProductDetail": "Our Blair Satin dress is a timeless silhouette that everyone will want in their bridal lineup! This dress features stylized pleats that meet at the left side front of the waistline to help create a refined faux version of the widely known wrap dress accompanied by a modest slit. Blair is fit to flatter all types of figures and this modest style will still have you feeling confident and sexy all night long!",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-satin_lifestyle_main-hover_1.jpg?v=1672254043",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Neutral",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-satin_black.jpg?v=1668788546"
       },
-      "Color2": {
+      {
         "Name": "Burgundie",
         "Image": ""
       },
-      "Color3": {
+      {
         "Name": "Green",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-satin_lifestyle_main-hover_1.jpg?v=1668788546"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -845,24 +1009,27 @@
   {
     "ProductID": 34,
     "ProductName": "Blair Sequin Dress",
-    "FabricID": "5",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 5,
+      "FabricName": "Sequin",
+      "FabricDetail": "Sequin bridesmaid dresses are sparkling options that provide glamour and glitter. They are one of the latest trends that can be worn all year and mix-and-match with different fabrics. Sequin dresses offer a combination of elegance, traditional styles, and classic looks in one. Adding sequins to your bridesmaids� styles will make your wedding colors pop and stand out. We have a selection of dresses, pants, skirts, and tops to choose from. Our styles can come in silver, champagne gold, rose gold, gold, cabernet, matte rose gold, navy blue, charcoal, black, and emerald. Try on our sequin bridesmaid dresses at home now! We ship them right to your door."
+    },
     "ProductDetail": "Our Blair Sequin dress is a timeless silhouette that everyone will want in their bridal lineup! This dress features stylized pleats that meet at the left side front of the waistline to help create a refined faux version of the widely known wrap dress. Blair is fit to flatter all types of figures and this modest style will still have you feeling confident and sexy all night long!",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-sequin_lifestyle_main-hover.png?v=1670015740",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-sequin_cabernet.jpg?v=1670015717"
       },
-      "Color2": {
+      {
         "Name": "Champagne",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-sequin_lifestyle.jpg?v=1670015720"
       },
-      "Color3": {
+      {
         "Name": "Blue",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-sequin_navy-blue.jpg?v=1670015717"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -870,24 +1037,27 @@
   {
     "ProductID": 35,
     "ProductName": "Blair Velvet Dress",
-    "FabricID": "3",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 3,
+      "FabricName": "Velvet",
+      "FabricDetail": "Velvet dresses have made a huge comeback. Consider bridesmaid velvet dresses for your fall or winter wedding. Made from lightweight velvet fabric, we have various styles and colors to choose from. Our customers can get velvet bridesmaids dresses in dresses, pants, skirts, and tops. We also have available colors such as white pearl, champagne, mustard, blush, dusty rose, purple, dusty purple, romantic rose, sage, olive, classic emerald, indie blue, royal blue, desert blue, slate blue, navy blue, black, terracotta, emerald, burgundy, and earth tones. These colors can come in various styles. Pick the best bridesmaid velvet dresses for your wedding party today"
+    },
     "ProductDetail": "Our Blair Velvet dress is a timeless silhouette that everyone will want in their bridal lineup! This dress features stylized pleats that meet at the left side front of the waistline to help create a refined faux version of the widely known wrap dress accompanied by a modest slit. Blair is fit to flatter all types of figures and this modest style will still have you feeling confident and sexy all night long!",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-velvet_lifestyle_main-hover.jpg?v=1664475165",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-velvet_lifestyle_mother-featured.jpg?v=1663797920"
       },
-      "Color2": {
+      {
         "Name": "White",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-velvet_white-pearl.jpg?v=1664293690"
       },
-      "Color3": {
+      {
         "Name": "Green",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-velvet_rosemary.jpg?v=1664293692"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -895,24 +1065,27 @@
   {
     "ProductID": 36,
     "ProductName": "Bowie Chiffon Dress",
-    "FabricID": "2",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 2,
+      "FabricName": "Chiffon",
+      "FabricDetail": "Our Chiffon is a plain-woven fabric that is breathable, soft, and flowy. This airy Chiffon is made of 100% Polyester and has a slightly translucent top layer of fabric. We double line these pieces to give you comfort and elegance. This is a lightweight fabric that has minimal stretch and can be worn any time of year."
+    },
     "ProductDetail": "The Bowie Chiffon dress is the perfect fit for the bridesmaid looking to have a modest, yet still flirty dress! Bowie features trendy details like its square neckline, pockets in the skirt, and detachable bows giving all the playful vibes in this design. The detachable bows snap on and off with small buttons centered on the straps. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bowie-chiffon_lifestyle_main-hover.jpg?v=1671635518",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bowie-chiffon_lifestyle_main-featured.png?v=1669839460"
       },
-      "Color2": {
+      {
         "Name": "Neutral",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bowie-chiffon_mustard_01.jpg?v=1671635518"
       },
-      "Color3": {
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bowie-chiffon_burgundy_01.jpg?v=1671635518"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -920,24 +1093,27 @@
   {
     "ProductID": 37,
     "ProductName": "Brooke Satin Dress",
-    "FabricID": "1",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 1,
+      "FabricName": "Satin",
+      "FabricDetail": "Satin bridesmaid dresses add elegance and beauty to your wedding party. Our high-quality satin dress collection is perfect for formal or boho weddings, but we offer various styles for bridesmaids to choose from. Our customers can try on satin dresses, skirts, and tops through our online store. Our satin dresses come in white pearl, soft champagne, champagne gold, taupe, blush, rose quartz, desert rose, cinnamon rose, terracotta rust, cabernet, and French blue. In addition, you�ll also find hues such as romantic blue, indie blue, navy blue, black, silver, eucalyptus, silver sage, deep olive, and classic emerald. Shop our selection of styles and colors below for your satin bridesmaid dresses."
+    },
     "ProductDetail": "An exciting and fresh dress for your wedding look! Our gorgeous Brooke Satin dress features a unique gathered bodice with a set of two straps; adjustable spaghetti straps for support that are underneath self-tie shoulder straps to create a dainty bow. The Brooke pairs well with our Skye dress to create a cohesive lineup. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/brooke-satin_lifestyle_main-hover.jpg?v=1672264163",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Orange",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/brooke-satin_lifestyle_01.png?v=1669657937"
       },
-      "Color2": {
+      {
         "Name": "Purple",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/brooke-satin_lifestyle.png?v=1669657937"
       },
-      "Color3": {
+      {
         "Name": "White",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/brooke-satin_white-pearl_01.jpg?v=1669657937"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -945,24 +1121,27 @@
   {
     "ProductID": 38,
     "ProductName": "Brooklyn Chiffon Dress",
-    "FabricID": "2",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 1,
+      "FabricName": "Satin",
+      "FabricDetail": "Satin bridesmaid dresses add elegance and beauty to your wedding party. Our high-quality satin dress collection is perfect for formal or boho weddings, but we offer various styles for bridesmaids to choose from. Our customers can try on satin dresses, skirts, and tops through our online store. Our satin dresses come in white pearl, soft champagne, champagne gold, taupe, blush, rose quartz, desert rose, cinnamon rose, terracotta rust, cabernet, and French blue. In addition, you�ll also find hues such as romantic blue, indie blue, navy blue, black, silver, eucalyptus, silver sage, deep olive, and classic emerald. Shop our selection of styles and colors below for your satin bridesmaid dresses."
+    },
     "ProductDetail": "Our Brooklyn Chiffon dress is a classic cut with a modern twist that radiates romance! The swooped one-shoulder silhouette lies on the left with a defined waist and fitted bodice that will keep you confident from day to night! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/brooklyn-chiffon_dusty-blue_lifestyle_main-hover.jpg?v=1663608503",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Blue",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/brooklyn-chiffon_dusty-blue_lifestyle_main-featured.jpg?v=1663009232"
       },
-      "Color2": {
+      {
         "Name": "Orange",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/brooklyn-chiffon_rust.jpg?v=1663009294"
       },
-      "Color3": {
+      {
         "Name": "Champagne",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/brooklyn-chiffon_sand.jpg?v=1663607750"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -970,24 +1149,27 @@
   {
     "ProductID": 39,
     "ProductName": "Camilla Crepe Dress",
-    "FabricID": "6",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 6,
+      "FabricName": "Crepe",
+      "FabricDetail": "Our Crepe is a lightweight, plain woven fabric made out of 100% polyester. This smooth Crepe has 4-way stretch that gives the wearer a graceful silhouette as well as a body shaping feel. Our Crepe is not just breathable, but moisture-wicking as well, which makes it comfortable for all climates."
+    },
     "ProductDetail": "Our Camilla Crepe dress will provide all the glamour you are wanting for your big day! Camilla is an instant show stopper with its alluring fit-and-flare style and plunging neckline supported by skin-tone mesh illusion for moderate coverage.  ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/camilla-crepe_lifestyle_main-hover.png?v=1671642521",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Blue",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/camilla-crepe_lifestyle_main-featured.png?v=1670258104"
       },
-      "Color2": {
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/camilla-crepe_cabernet_01.jpg?v=1671642521"
       },
-      "Color3": {
+      {
         "Name": "Champagne",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/camilla-crepe_almond_02.jpg?v=1671642521"
       }
-    },
+    ],
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "235.00"
@@ -995,24 +1177,27 @@
   {
     "ProductID": 40,
     "ProductName": "Camilla Geo Sequin Dress",
-    "FabricID": "5",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 5,
+      "FabricName": "Sequin",
+      "FabricDetail": "Sequin bridesmaid dresses are sparkling options that provide glamour and glitter. They are one of the latest trends that can be worn all year and mix-and-match with different fabrics. Sequin dresses offer a combination of elegance, traditional styles, and classic looks in one. Adding sequins to your bridesmaids� styles will make your wedding colors pop and stand out. We have a selection of dresses, pants, skirts, and tops to choose from. Our styles can come in silver, champagne gold, rose gold, gold, cabernet, matte rose gold, navy blue, charcoal, black, and emerald. Try on our sequin bridesmaid dresses at home now! We ship them right to your door."
+    },
     "ProductDetail": "Our Camilla dress will provide all the glitz and glamour for your big day and is now available in our specialty fabric; the Geo Sequin pattern! Camilla is an instant show stopper with its alluring fit-and-flare style and plunging neckline supported by skin-tone mesh illusion for moderate coverage.  ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/camilla-geo-sequin_rose-gold_lifestyle_main-hover.png?v=1670012261",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/camilla-geo-sequin_cabernet_lifestyle_main-featured.png?v=1670012203"
       },
-      "Color2": {
+      {
         "Name": "Champagne",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/camilla-geo-sequin_rose-gold_lifestyle_1.png?v=1670012203"
       },
-      "Color3": {
+      {
         "Name": "Green",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/camilla-geo-sequin_emerald_lifestyle_1.png?v=1670012203"
       }
-    },
+    ],
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "235.00"
@@ -1020,24 +1205,27 @@
   {
     "ProductID": 41,
     "ProductName": "Camilla Sequin Dress",
-    "FabricID": "5",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 5,
+      "FabricName": "Sequin",
+      "FabricDetail": "Sequin bridesmaid dresses are sparkling options that provide glamour and glitter. They are one of the latest trends that can be worn all year and mix-and-match with different fabrics. Sequin dresses offer a combination of elegance, traditional styles, and classic looks in one. Adding sequins to your bridesmaids� styles will make your wedding colors pop and stand out. We have a selection of dresses, pants, skirts, and tops to choose from. Our styles can come in silver, champagne gold, rose gold, gold, cabernet, matte rose gold, navy blue, charcoal, black, and emerald. Try on our sequin bridesmaid dresses at home now! We ship them right to your door."
+    },
     "ProductDetail": "Our Camilla dress will provide all the glitz and glamour for your big day! Camilla is an instant show stopper with its alluring fit-and-flare style and plunging neckline supported by skin-tone mesh illusion for moderate coverage. And for our brides-to-be looking for that perfect second look, Camilla now comes in our Straight Line White Pearl Sequin specialty fabric! While we do not offer the white sequin option in our Home Try-Ons, mega swatches are available for purchase. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/camilla-sequin_lifestyle_main-hover.png?v=1671638472",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/camilla-sequin_cabernet.jpg?v=1671638472"
       },
-      "Color2": {
+      {
         "Name": "Champagne",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/camilla-sequin_lifestyle_main-featured.png?v=1670017800"
       },
-      "Color3": {
+      {
         "Name": "Blue",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/camilla-sequin_navy-blue.jpg?v=1671638472"
       }
-    },
+    ],
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "235.00"
@@ -1045,24 +1233,27 @@
   {
     "ProductID": 42,
     "ProductName": "Carmen Crepe Dress",
-    "FabricID": "6",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 6,
+      "FabricName": "Crepe",
+      "FabricDetail": "Our Crepe is a lightweight, plain woven fabric made out of 100% polyester. This smooth Crepe has 4-way stretch that gives the wearer a graceful silhouette as well as a body shaping feel. Our Crepe is not just breathable, but moisture-wicking as well, which makes it comfortable for all climates."
+    },
     "ProductDetail": "A beautiful addition to any event, our Carmen Crepe dress will have everyone feeling confident with her sleek and flirty details, while still allowing for some moderate coverage! Carmen features a pleated gathering and a panel detail at the bust and is then finished off with crisscross straps in the back",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/carmen-crepe_lifestyle_main-hover.png?v=1670600943",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Burgundie",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/carmen-crepe_dusty-rose_lifestyle_main-featured.jpg?v=1662754063"
       },
-      "Color2": {
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/carmen-crepe_blushing-bride_01.jpg?v=1670600887"
       },
-      "Color3": {
+      {
         "Name": "White",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/carmen-crepe_white-pearl_02.jpg?v=1670600887"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"
@@ -1070,24 +1261,27 @@
   {
     "ProductID": 43,
     "ProductName": "Carmen Satin Dress",
-    "FabricID": "1",
-    "PromotionID": null,
+    "Fabric": {
+      "FabricID": 1,
+      "FabricName": "Satin",
+      "FabricDetail": "Satin bridesmaid dresses add elegance and beauty to your wedding party. Our high-quality satin dress collection is perfect for formal or boho weddings, but we offer various styles for bridesmaids to choose from. Our customers can try on satin dresses, skirts, and tops through our online store. Our satin dresses come in white pearl, soft champagne, champagne gold, taupe, blush, rose quartz, desert rose, cinnamon rose, terracotta rust, cabernet, and French blue. In addition, you�ll also find hues such as romantic blue, indie blue, navy blue, black, silver, eucalyptus, silver sage, deep olive, and classic emerald. Shop our selection of styles and colors below for your satin bridesmaid dresses."
+    },
     "ProductDetail": "A beautiful addition to any event, our Carmen Satin dress will have everyone feeling confident with her sleek and flirty details, while still allowing for some moderate coverage! Carmen features a pleated gathering and a panel detail at the bust and is then finished off with crisscross straps in the back. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/carmen-satin_lifestyle_main-hover.jpg?v=1672263238",
-    "Color": {
-      "Color1": {
+    "Color": [
+      {
         "Name": "Pink",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/carmen-satin_lifestyle_main-featured.png?v=1669653806"
       },
-      "Color2": {
+      {
         "Name": "Champagne",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/carmen-satin_lifestyle_2.jpg?v=1671574551"
       },
-      "Color3": {
+      {
         "Name": "Purple",
         "Image": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/carmen-satin_dusty-plum_1.jpg?v=1671574551"
       }
-    },
+    ],
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
     "ReadyToShip": "245.00"

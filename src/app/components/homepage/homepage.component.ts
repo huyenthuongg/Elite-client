@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { HomepageApiService } from 'src/app/service/homepage-api.service';
+
+import { ProductServiceService } from 'src/app/service/product-service.service';
+
 
 @Component({
   selector: 'app-homepage',
@@ -8,8 +10,10 @@ import { HomepageApiService } from 'src/app/service/homepage-api.service';
 })
 export class HomepageComponent {
   homepage: any;
+
+  fashion: any;
   errMessage: string = '';
-  constructor(public _service: HomepageApiService) {
+  constructor(public _service: ProductServiceService) {
     this._service.getHomepage().subscribe({
       next: (data) => {
         this.homepage = data;
