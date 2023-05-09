@@ -1,0 +1,122 @@
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  color: #000000;
+
+}
+.form-control{
+    width: 500px ;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+::placeholder {
+  color: #aaa;
+  font-size: 14px;
+  padding-left: 5px;
+}
+button {
+  width: 500px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #9D9D9D;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+ a {
+  text-align: center;
+}
+.button-notmain {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  color: #A7717E;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.button-notmain:hover {
+  text-decoration: none;
+}
+input {
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 40px;
+  width: 500px;
+  transition: 0.3s;
+  margin-top: 20px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 110px;
+}
+.newhear-text{
+  margin-left: 10px;
+}
+.item {
+  align-items: center;
+}
+#FormControlInput1 {
+  margin-top: 50px;
+}
+.newhear-note {
+  text-align: center;
+  margin-top: 40px;
+}
+.login-body {
+  background-image: url('src/assets/loginpage/daydream-bg 1.png');
+  background-repeat: no-repeat ;
+  background-size: 50%;
+  margin-top: 100px;
+}
+
+.padding-left{
+  padding-right: 10%;
+}
+.padding-right{
+  padding-left: 10%;
+}
+.button-accountcreate {
+  background-color: #A7717E;
+}
+.button-main:hover{
+  background-color: #000000;
+}
+/* i {
+  position: absolute;
+  margin: 10px 0 0 10px;
+} */
+
+.bi-envelope{
+  position: absolute;
+  margin: 10px 0 0 10px;
+}
+.bi-lock{
+  position: absolute;
+  margin: 30px 0 0 10px;
+}
+.bi-eye, .bi-eye-slash{
+  position: relative;
+  left: -35px;
+  top: 32px;
+  margin: 30px 0 0 0px;
+}
+.style-input{
+  display: flex;
+}
+
+

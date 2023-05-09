@@ -1,0 +1,70 @@
+<div class="login-body">
+  <div class="container">
+    <div class="item padding-left">
+      <h1>LOGIN</h1>
+      <form>
+        <div class="mb-3">
+          <i class="bi bi-envelope"></i>
+          <input name="ngModel" type="email" class="form-control" id="FormControlInput1" placeholder="EMAIL"
+                  #email="ngModel"  required
+                  pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$" [(ngModel)]="user.email"
+          />
+          <div *ngIf="email.errors && email.dirty">
+            <small class="text-danger" *ngIf="email.errors?.['required']">Primary email is required</small>
+            <small class="text-danger" *ngIf="email.errors?.['pattern']">Please provide a valid email address</small>
+          </div>
+        </div>
+        <div class="mb-3 style-input">
+          <div class="lock-input">
+            <i class="bi bi-lock"></i>
+            <input type="email" class="form-control" id="FormControlInput2" placeholder="PASSWORD" required
+              [type]="showPassword ? 'text' : 'password'" name="password" #password="ngModel" [(ngModel)]="user.password" pattern="^[a-zA-Z0-9_!@#$%^&*()_+\-=[\]{}|;:'`,./?\s]{6,}$"/>
+            <div *ngIf="password.errors && password.dirty">
+              <small class="text-danger" *ngIf="password.errors?.['required']">PassWord is required</small>
+              <small class="text-danger" *ngIf="password.errors?.['pattern']">Password must have at least 6 character(s)</small>
+            </div>
+          </div>
+          <div>
+            <i [class]="showPassword ? 'bi bi-eye' : 'bi bi-eye-slash'" (click)="togglePasswordVisibility()">
+            </i>
+          </div>
+
+        </div>
+        <div>
+          <button class="button-main" type="submit" (click)="login()">LOGIN</button>
+        </div>
+        <div>
+          <button class="button-notmain" (click)="forgotpasswordpage()">FORGOT PASSWORD?</button>
+        </div>
+      </form>
+    </div>
+    <div class="item padding-right">
+      <h1>NEW HEAR</h1>
+      <p class="newhear-note">Create an account with us and you'll be able to:</p>
+      <div class="newhear-list">
+        <ul>
+          <li>
+            <div class="bi bi-lightning"></div>
+            <div class="newhear-text"> Check out faster</div>
+          </li>
+          <li>
+            <div class="bi bi-file-text"></div>
+            <div class="newhear-text"> Access your order history</div>
+          </li>
+          <li>
+            <div class="bi bi-file-earmark-text"></div>
+            <div class="newhear-text">Save multiple shipping address</div>
+          </li>
+          <li>
+            <div class="bi bi-list-check"></div>
+            <div class="newhear-text"> Track new orders</div>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <button class="button-accountcreate" type="submit" (click)="registerpage()">CREATE AN ACCOUNT</button>
+      </div>
+    </div>
+
+
+

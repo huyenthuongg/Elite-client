@@ -1,7 +1,9 @@
+
 [
   {
+    "ProductID": 1,
     "ProductName": "Athena Satin Dress",
-    "FabricID": "64428ce90a16d28d693cae03",
+    "FabricID": "1",
     "PromotionID": "",
     "note": "BestSellers",
     "ProductDetail": "Our new Athena Satin dress will be sure to stun everyone with its beautiful criss-cross halter neck that ties in the back and a thin band keyhole back detail. Athena is made to be fitted as a looser slip dress but also features a zipper for your bridesmaids to slip into the dress with more ease. ",
@@ -22,18 +24,14 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 2,
     "ProductName": "Cora Chiffon Dress",
-    "FabricID": "64428ce90a16d28d693cae04",
+    "FabricID": "2",
     "PromotionID": null,
-    "note": "BestSellers",
-    "ProductDetail": "Our Cora Chiffon dress is the sweetest addition to your bridal party, with its cute ruffled cap sleeves and flowing skirt, you'll be sure to be dazzling all night! Cora features illusion mesh at the bust for modest coverage and a double-banded waistline that ties in the back for another unique detail.",
+    "ProductDetail": "Our Cora Chiffon dress is the sweetest addition to your bridal party, with its cute ruffled cap sleeves and flowing skirt, you'll be sure toï¿½be dazzling all night!ï¿½Cora features illusion mesh at the bust for modest coverage and a double-banded waistline that ties in the back forï¿½another unique detail.",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/cora-chiffon_lifestyle_main-hover.png?v=1671634072",
     "Color": {
       "Color1": {
@@ -51,17 +49,13 @@
     },
     "MakeToOrder": "169.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "225.00",
-    "Rating": {
-      "Rate": 5,
-      "Count": 1
-    }
+    "ReadyToShip": "225.00"
   },
   {
+    "ProductID": 3,
     "ProductName": "Dylan Velvet Dress",
-    "FabricID": "64428ce90a16d28d693cae05",
+    "FabricID": "3",
     "PromotionID": null,
-    "note": "BestSellers",
     "ProductDetail": "Our Dylan dress is a showstopper with its plunging v-neckline and effortless criss-cross straps creating a stunning open-back design! The thick shoulder straps have a gathering detail to match the gathered waistband which then flows into the clean lines of the criss-cross back straps, all playing into the sexy but timeless design! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/dylan-velvet_lifestyle_main-hover.jpg?v=1669830509",
     "Color": {
@@ -80,16 +74,14 @@
     },
     "MakeToOrder": "169.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "225.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 1
-    }
+    "ReadyToShip": "225.00"
   },
   {
+    "ProductID": 4,
     "ProductName": "Harper Chiffon Faux Wrap Dress",
-    "FabricID": "64428ce90a16d28d693cae04",
+    "FabricID": "2",
     "PromotionID": null,
+    "note": "BestSellers",
     "ProductDetail": "Our Harper Chiffon dress got an upgrade with her faux-wrap design, and you won't want to take her off! Harper features an elegant silhouette with modest coverage, a flattering self-tie waist, and feminine ruffled sleeves - this dress and its flirty details are sure to make your heart skip a beat!",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/harper-chiffon_lifestyle_main-hover_2.png?v=1671575880",
     "Color": {
@@ -108,15 +100,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 5,
     "ProductName": "Jade Satin Dress",
-    "FabricID": "64428ce90a16d28d693cae03",
+    "FabricID": "1",
     "PromotionID": null,
     "note": "BestSellers",
     "ProductDetail": "Our Jade Satin dress is an alluring one-shoulder option perfect for a modern greek goddess vibe. With delicate left-side ruching that creates additional tummy coverage, this silhouette can flatter any waistline. This elegant style pairs perfectly with our Dawson and Rory dresses for a beautiful wedding look! ",
@@ -137,15 +126,12 @@
     },
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "235.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "235.00"
   },
   {
+    "ProductID": 6,
     "ProductName": "Jade Velvet Dress",
-    "FabricID": "64428ce90a16d28d693cae05",
+    "FabricID": "3",
     "PromotionID": null,
     "ProductDetail": "Our Jade Velvet dress is an alluring one-shoulder option perfect for a modern greek goddess vibe. With delicate left-side ruching that creates additional tummy coverage, this silhouette can flatter any waistline. This elegant style pairs perfectly with our Dawson and Rory dresses for a beautiful wedding look! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/jade-velvet_lifestyle_main-hover.jpg?v=1670602823",
@@ -165,17 +151,13 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 7,
     "ProductName": "Rava Satin Dress",
-    "FabricID": "64428ce90a16d28d693cae03",
+    "FabricID": "1",
     "PromotionID": null,
-    "note": "BestSellers",
     "ProductDetail": "Glam up your bridal party with our alluring Rava dress, now available in our satin collection! Rava features gathered fabric at the waistband and is finished off with our highest slit yet among all our styles, creating an elegant and modern dress you won't want to take off! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/rava-satin_lifestyle_02.jpg?v=1672256050",
     "Color": {
@@ -194,15 +176,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 5,
-      "Count": 1
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 8,
     "ProductName": "Rory Satin Dress",
-    "FabricID": "64428ce90a16d28d693cae03",
+    "FabricID": "1",
     "PromotionID": null,
     "note": "BestSellers",
     "ProductDetail": "Our popular satin dress, Rory will have you feeling comfortable and confident all day and night! This classic style features a gathering detail on the front left side that offers tummy coverage and a fitted but more forgiving bodice to flatter every body type and size! Rory pairs beautifully with our Dawson and Jade dresses, creating the ultimate bridal lineup for your big day.  ",
@@ -223,15 +202,12 @@
     },
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "235.00",
-    "Rating": {
-      "Rate": 5,
-      "Count": 1
-    }
+    "ReadyToShip": "235.00"
   },
   {
+    "ProductID": 9,
     "ProductName": "Rosalie Tulle Convertible Dress",
-    "FabricID": "64428ce90a16d28d693cae06",
+    "FabricID": "4",
     "PromotionID": null,
     "note": "BestSellers",
     "ProductDetail": "One affordable gown, 10+ looks, and a thrilled bridal party are all totally possible with our Rosalie Tulle Convertible dress! Use the removable shoulder straps and three long sashes to twist, tie, and shape a look that matches each of your bridesmaids' personalities while keeping a cohesive lineup! Rosalie includes three tulle self-tie sashes and two pairs of removable tulle straps; converts using straps and small interior buttons. ",
@@ -252,15 +228,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 10,
     "ProductName": "Skye Chiffon Dress",
-    "FabricID": "64428ce90a16d28d693cae04",
+    "FabricID": "2",
     "PromotionID": null,
     "note": "BestSellers",
     "ProductDetail": "Our best-selling Skye dress is now available in our Chiffon fabric! Skye is a fresh take on a classic gown that will have you feeling comfortable and elegant all night long! This style features a fitted slip dress design with a modern cowl neckline and double slits in the skirt. Skye also comes in our Satin, Velvet, Crepe, and Sequin fabrics to mix and match your wedding look!",
@@ -281,15 +254,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 11,
     "ProductName": "Skye Satin Dress",
-    "FabricID": "64428ce90a16d28d693cae03",
+    "FabricID": "1",
     "PromotionID": null,
     "note": "BestSellers",
     "ProductDetail": "Our Skye dress is a fresh take on a classic gown that will have you feeling comfortable and elegant all night long! This style features a fitted slip dress design with a modern cowl neckline and double slits in the skirt that will make it the most popular style among your whole bridal party. Skye also comes in midi-length for a more playful look. ",
@@ -310,15 +280,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 12,
     "ProductName": "Abigail Chiffon Dress",
-    "FabricID": "64428ce90a16d28d693cae04",
+    "FabricID": "2",
     "PromotionID": null,
     "note": "BestSellers",
     "ProductDetail": "A classic bridesmaid style, our versatile Abigail Chiffon dress will be a hit with everyone in your bridal party! Abigail's convertible neckline and whimsical flutter sleeves allow your wedding party to mix and match their personality with a one-shoulder, two-shoulder, or off-the-shoulder look while still creating that cohesive line-up. ",
@@ -339,15 +306,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 13,
     "ProductName": "Abigail Tulle Dress",
-    "FabricID": "64428ce90a16d28d693cae06",
+    "FabricID": "4",
     "PromotionID": null,
     "note": "BestSellers",
     "ProductDetail": "A classic bridesmaid style, our versatile Abigail Tulle dress will be a hit with everyone in your bridal party! Abigail's convertible neckline and whimsical flutter sleeves allow your wedding party to mix and match their personality with a one-shoulder, two-shoulder, or off-the-shoulder look while still creating that cohesive line-up. ",
@@ -368,15 +332,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 14,
     "ProductName": "Ainsley Chiffon Dress",
-    "FabricID": "64428ce90a16d28d693cae04",
+    "FabricID": "2",
     "PromotionID": null,
     "note": "BestSellers",
     "ProductDetail": "The Ainsley Chiffon dress provides the modest classic style in the front, but a refreshed flirty design in the back that will keep you partying from day to night! Ainsley features a simple camisole top with a cute cut-out back that flows into an airy chiffon skirt. ",
@@ -397,15 +358,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 15,
     "ProductName": "Alma Chiffon Dress",
-    "FabricID": "64428ce90a16d28d693cae04",
+    "FabricID": "2",
     "PromotionID": null,
     "note": "BestSellers",
     "ProductDetail": "Our Alma dress is both a modern and romantic chiffon style that features a cute double waistline detail making it the dream dress for your big day! Alma is a modest style in her fit and has more coverage at the bust from the skin-tone illusion mesh design allowing her to flatter every body type. ",
@@ -426,15 +384,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 16,
     "ProductName": "Alma Tulle Dress",
-    "FabricID": "64428ce90a16d28d693cae06",
+    "FabricID": "4",
     "PromotionID": null,
     "ProductDetail": "Our Alma Tulle dress is both a modern and romantic style that features a cute double waistline detail making it the dream dress for your big day! Alma is a modest style in her fit and has more coverage at the bust from the skin-tone illusion mesh design allowing her to flatter every body type.",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/alma-tulle_lifestyle_main-hover.png?v=1675094936",
@@ -454,15 +409,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 17,
     "ProductName": "Amelia Chiffon Dress",
-    "FabricID": "64428ce90a16d28d693cae04",
+    "FabricID": "2",
     "PromotionID": null,
     "ProductDetail": "Our Amelia Chiffon dress is a flawless style that is the missing piece to your bridal lineup! Amelia has divine ruffled tiers, short flutter sleeves, and a moderate v-neck to provide a playful, but romantic style. Pair this style with our Harley Chiffon dress to add some textures to your dreamy wedding look! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/amelia-chiffon_lifestyle_main-hover.png?v=1671635835",
@@ -482,17 +434,14 @@
     },
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "235.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "235.00"
   },
   {
+    "ProductID": 18,
     "ProductName": "Ariel Convertible Crepe Dress",
-    "FabricID": "64428ce90a16d28d693cae08",
+    "FabricID": "6",
     "PromotionID": null,
-    "ProductDetail": "Our Ariel Convertible Crepe dress is a polished style for any bridesmaid that wants to transform their look from day to night! This dress features detachable off-the-shoulder sleeves that snap on and off with small buttons on the inside bust of the dress letting the bridal party go from an elegant day look to dancing the night away in a strapless and flirty gown.",
+    "ProductDetail": "Our Ariel Convertible Crepe dreFs is a polished style for any bridesmaid that wants to transform their look from day to night! This dress features detachable off-the-shoulder sleeves that snap on and off with small buttons on the inside bust of the dress letting the bridal party go from an elegant day look to dancing the night away in a strapless and flirty gown.",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ariel-crepe_lifestyle_main-hover.png?v=1675113215",
     "Color": {
       "Color1": {
@@ -510,15 +459,12 @@
     },
     "MakeToOrder": "169.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "225.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "225.00"
   },
   {
+    "ProductID": 19,
     "ProductName": "Ariel Convertible Satin Dress",
-    "FabricID": "64428ce90a16d28d693cae03",
+    "FabricID": "1",
     "PromotionID": null,
     "ProductDetail": "Our Ariel Convertible Satin dress is a polished style for any bridesmaid that wants to transform their look from day to night! This dress features detachable off-the-shoulder sleeves that snap on and off with small buttons on the inside bust of the dress letting the bridal party go from an elegant day look to dancing the night away in a strapless and flirty gown.",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ariel-satin_lifestyle_main-hover.png?v=1672256441",
@@ -538,15 +484,12 @@
     },
     "MakeToOrder": "169.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "225.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "225.00"
   },
   {
+    "ProductID": 20,
     "ProductName": "Ariel Convertible Velvet Dress",
-    "FabricID": "64428ce90a16d28d693cae05",
+    "FabricID": "3",
     "PromotionID": null,
     "ProductDetail": "Our Ariel Convertible Velvet dress is a polished style for any bridesmaid that wants to transform their look from day to night! This dress features detachable off-the-shoulder sleeves that snap on and off with small buttons on the inside bust of the dress letting the bridal party go from an elegant day look to dancing the night away in a strapless and flirty gown.",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/ariel-velvet_lifestyle_main-hover_1.jpg?v=1664473768",
@@ -566,15 +509,12 @@
     },
     "MakeToOrder": "169.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "225.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "225.00"
   },
   {
+    "ProductID": 21,
     "ProductName": "Asher Crepe Dress",
-    "FabricID": "64428ce90a16d28d693cae08",
+    "FabricID": "6",
     "PromotionID": null,
     "ProductDetail": "Our Asher Crepe dress is a modern style that is the perfect dress to add to your wedding party look! The simple front design keeps it sleek while the criss-cross straps in the back create a beautiful and flirty open back design",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/asher-crepe_lifestyle_main-hover.jpg?v=1670256973",
@@ -594,15 +534,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 22,
     "ProductName": "Asher Velvet Dress",
-    "FabricID": "64428ce90a16d28d693cae05",
+    "FabricID": "3",
     "PromotionID": null,
     "ProductDetail": "Our Asher Velvet dress is a modern style that is the perfect dress to add to your wedding party look! The simple front design keeps it sleek while the criss-cross straps in the back create a beautiful and flirty open back design. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/asher-velvet_lifestyle_main-hover.jpg?v=1669831278",
@@ -622,15 +559,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 23,
     "ProductName": "Aurora Velvet Dress",
-    "FabricID": "64428ce90a16d28d693cae05",
+    "FabricID": "3",
     "PromotionID": null,
     "ProductDetail": "A gorgeous and unique bridesmaid dress you didn't know you needed, this one-sleeve style is a stunner with asymmetrical details! The Aurora Velvet dress features a side knot detail in the front with dainty buttons holding the two-inch cuff on the sleeve together. This dress is all the romance and elegance that you are looking for to complete your wedding look!",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/aurora-velvet_romantic-rose_lifestyle_main-hover_1.jpg?v=1675102903",
@@ -650,15 +584,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 24,
     "ProductName": "Bardot Crepe Dress",
-    "FabricID": "64428ce90a16d28d693cae08",
+    "FabricID": "6",
     "PromotionID": null,
     "ProductDetail": "Our dazzling Bardot Crepe dress is a timeless fit-and-flare style that is perfect for the bride looking to add some elegance to her big day! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-crepe_lifestyle_main-hover_2.jpg?v=1670259967",
@@ -678,15 +609,13 @@
     },
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "235.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "235.00"
   },
   {
+
+    "ProductID": 25,
     "ProductName": "Bardot Satin Dress",
-    "FabricID": "64428ce90a16d28d693cae03",
+    "FabricID": "1",
     "PromotionID": null,
     "ProductDetail": "Our dazzling Bardot Satin dress is a timeless fit-and-flare style that is perfect for the bride looking to add some elegance to her big day! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-satin_lifestyle_main-hover.png?v=1670536137",
@@ -706,15 +635,13 @@
     },
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "235.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "235.00"
   },
   {
+
+    "ProductID": 26,
     "ProductName": "Bardot Sequin Dress",
-    "FabricID": null,
+    "FabricID": 5,
     "PromotionID": null,
     "ProductDetail": "Our dazzling Bardot Sequin dress is a timeless fit-and-flare style that is perfect for the bride looking to add some elegance to her big day! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-sequin_lifestyle_main-hover_2.jpg?v=1670017353",
@@ -734,15 +661,13 @@
     },
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "235.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "235.00"
   },
   {
+
+    "ProductID": 27,
     "ProductName": "Bardot Velvet Dress",
-    "FabricID": "64428ce90a16d28d693cae05",
+    "FabricID": "3",
     "PromotionID": null,
     "ProductDetail": "Our dazzling Bardot Velvet dress is a timeless fit-and-flare style that is perfect for the bride looking to add some elegance to her big day! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bardot-velvet_black_lifestyle_main-hover_1.jpg?v=1669829206",
@@ -762,15 +687,13 @@
     },
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "235.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "235.00"
   },
   {
+
+    "ProductID": 28,
     "ProductName": "Bella Tulle Dress",
-    "FabricID": "64428ce90a16d28d693cae06",
+    "FabricID": "4",
     "PromotionID": null,
     "ProductDetail": "The Bella Tulle dress is an instant with a flattering ruched waist, full skirt, and one-shoulder illusion silhouette. Flattering and elegant, it's a must for the modern bridesmaid looking for that perfect classic style.",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bella-tulle_lifestyle_main-hover_1.jpg?v=1669929037",
@@ -790,15 +713,13 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+
+    "ProductID": 29,
     "ProductName": "Bijou Sequin Dress",
-    "FabricID": "64428ce90a16d28d693cae07",
+    "FabricID": "5",
     "PromotionID": null,
     "ProductDetail": "When the occasion calls for full glam, chose the dress that will be sure to shine all night long! The Bijou Sequin dress combines a classic V-neck, ruched waist, and full skirt for a flattering and confident look on any body type!",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bijou-sequin_lifestyle_main-hover_1.jpg?v=1670015034",
@@ -818,15 +739,13 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+
+    "ProductID": 30,
     "ProductName": "Billie Satin Dress",
-    "FabricID": "64428ce90a16d28d693cae03",
+    "FabricID": "1",
     "PromotionID": null,
     "ProductDetail": "Our Billie Satin dress is a fun and modern take on a classic style! Billie features a slight cowl neckline, straps that crisscross in the back for another unique detail, and then is finished off with faux satin buttons on the left side of the skirt that runs into a flirty thigh-high slit. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/billie-satin_lifestyle_hover.jpg?v=1672260467",
@@ -846,15 +765,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 31,
     "ProductName": "Billie Velvet Dress",
-    "FabricID": "64428ce90a16d28d693cae05",
+    "FabricID": "3",
     "PromotionID": null,
     "ProductDetail": "Our Billie Velvet dress is a fun and modern take on a classic style! Billie features a slight cowl neckline, straps that crisscross in the back for another unique detail, and then is finished off with faux buttons on the left side of the skirt that runs into a flirty thigh-high slit. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/billie-velvet_lifestyle_main-hover.png?v=1669829645",
@@ -874,15 +790,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 32,
     "ProductName": "Blair Chiffon Dress",
-    "FabricID": "64428ce90a16d28d693cae04",
+    "FabricID": "2",
     "PromotionID": null,
     "ProductDetail": "Our Blair Chiffon dress is a timeless silhouette that everyone will want in their bridal lineup! This dress features stylized pleats that meet at the left side front of the waistline to help create a refined faux version of the widely known wrap dress. Blair is fit to flatter all types of figures and this modest style will still have you feeling confident and sexy all night long!",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-chiffon_desert-rose_main-hover_lifestyle.jpg?v=1669917737",
@@ -902,15 +815,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 33,
     "ProductName": "Blair Satin Dress",
-    "FabricID": "64428ce90a16d28d693cae03",
+    "FabricID": "1",
     "PromotionID": null,
     "ProductDetail": "Our Blair Satin dress is a timeless silhouette that everyone will want in their bridal lineup! This dress features stylized pleats that meet at the left side front of the waistline to help create a refined faux version of the widely known wrap dress accompanied by a modest slit. Blair is fit to flatter all types of figures and this modest style will still have you feeling confident and sexy all night long!",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-satin_lifestyle_main-hover_1.jpg?v=1672254043",
@@ -930,15 +840,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 34,
     "ProductName": "Blair Sequin Dress",
-    "FabricID": "64428ce90a16d28d693cae07",
+    "FabricID": "5",
     "PromotionID": null,
     "ProductDetail": "Our Blair Sequin dress is a timeless silhouette that everyone will want in their bridal lineup! This dress features stylized pleats that meet at the left side front of the waistline to help create a refined faux version of the widely known wrap dress. Blair is fit to flatter all types of figures and this modest style will still have you feeling confident and sexy all night long!",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-sequin_lifestyle_main-hover.png?v=1670015740",
@@ -958,15 +865,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 35,
     "ProductName": "Blair Velvet Dress",
-    "FabricID": "64428ce90a16d28d693cae05",
+    "FabricID": "3",
     "PromotionID": null,
     "ProductDetail": "Our Blair Velvet dress is a timeless silhouette that everyone will want in their bridal lineup! This dress features stylized pleats that meet at the left side front of the waistline to help create a refined faux version of the widely known wrap dress accompanied by a modest slit. Blair is fit to flatter all types of figures and this modest style will still have you feeling confident and sexy all night long!",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/blair-velvet_lifestyle_main-hover.jpg?v=1664475165",
@@ -986,15 +890,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 36,
     "ProductName": "Bowie Chiffon Dress",
-    "FabricID": "64428ce90a16d28d693cae04",
+    "FabricID": "2",
     "PromotionID": null,
     "ProductDetail": "The Bowie Chiffon dress is the perfect fit for the bridesmaid looking to have a modest, yet still flirty dress! Bowie features trendy details like its square neckline, pockets in the skirt, and detachable bows giving all the playful vibes in this design. The detachable bows snap on and off with small buttons centered on the straps. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/bowie-chiffon_lifestyle_main-hover.jpg?v=1671635518",
@@ -1014,15 +915,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 37,
     "ProductName": "Brooke Satin Dress",
-    "FabricID": "64428ce90a16d28d693cae03",
+    "FabricID": "1",
     "PromotionID": null,
     "ProductDetail": "An exciting and fresh dress for your wedding look! Our gorgeous Brooke Satin dress features a unique gathered bodice with a set of two straps; adjustable spaghetti straps for support that are underneath self-tie shoulder straps to create a dainty bow. The Brooke pairs well with our Skye dress to create a cohesive lineup. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/brooke-satin_lifestyle_main-hover.jpg?v=1672264163",
@@ -1042,15 +940,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 38,
     "ProductName": "Brooklyn Chiffon Dress",
-    "FabricID": "64428ce90a16d28d693cae04",
+    "FabricID": "2",
     "PromotionID": null,
     "ProductDetail": "Our Brooklyn Chiffon dress is a classic cut with a modern twist that radiates romance! The swooped one-shoulder silhouette lies on the left with a defined waist and fitted bodice that will keep you confident from day to night! ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/brooklyn-chiffon_dusty-blue_lifestyle_main-hover.jpg?v=1663608503",
@@ -1070,15 +965,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 39,
     "ProductName": "Camilla Crepe Dress",
-    "FabricID": "64428ce90a16d28d693cae08",
+    "FabricID": "6",
     "PromotionID": null,
     "ProductDetail": "Our Camilla Crepe dress will provide all the glamour you are wanting for your big day! Camilla is an instant show stopper with its alluring fit-and-flare style and plunging neckline supported by skin-tone mesh illusion for moderate coverage.  ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/camilla-crepe_lifestyle_main-hover.png?v=1671642521",
@@ -1098,15 +990,12 @@
     },
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "235.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "235.00"
   },
   {
+    "ProductID": 40,
     "ProductName": "Camilla Geo Sequin Dress",
-    "FabricID": "64428ce90a16d28d693cae07",
+    "FabricID": "5",
     "PromotionID": null,
     "ProductDetail": "Our Camilla dress will provide all the glitz and glamour for your big day and is now available in our specialty fabric; the Geo Sequin pattern! Camilla is an instant show stopper with its alluring fit-and-flare style and plunging neckline supported by skin-tone mesh illusion for moderate coverage.  ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/camilla-geo-sequin_rose-gold_lifestyle_main-hover.png?v=1670012261",
@@ -1126,15 +1015,12 @@
     },
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "235.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "235.00"
   },
   {
+    "ProductID": 41,
     "ProductName": "Camilla Sequin Dress",
-    "FabricID": "64428ce90a16d28d693cae07",
+    "FabricID": "5",
     "PromotionID": null,
     "ProductDetail": "Our Camilla dress will provide all the glitz and glamour for your big day! Camilla is an instant show stopper with its alluring fit-and-flare style and plunging neckline supported by skin-tone mesh illusion for moderate coverage. And for our brides-to-be looking for that perfect second look, Camilla now comes in our Straight Line White Pearl Sequin specialty fabric! While we do not offer the white sequin option in our Home Try-Ons, mega swatches are available for purchase. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/camilla-sequin_lifestyle_main-hover.png?v=1671638472",
@@ -1154,15 +1040,12 @@
     },
     "MakeToOrder": "179.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "235.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "235.00"
   },
   {
+    "ProductID": 42,
     "ProductName": "Carmen Crepe Dress",
-    "FabricID": "64428ce90a16d28d693cae08",
+    "FabricID": "6",
     "PromotionID": null,
     "ProductDetail": "A beautiful addition to any event, our Carmen Crepe dress will have everyone feeling confident with her sleek and flirty details, while still allowing for some moderate coverage! Carmen features a pleated gathering and a panel detail at the bust and is then finished off with crisscross straps in the back",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/carmen-crepe_lifestyle_main-hover.png?v=1670600943",
@@ -1182,15 +1065,12 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
-    "Rating": {
-      "Rate": 4.5,
-      "Count": 2
-    }
+    "ReadyToShip": "245.00"
   },
   {
+    "ProductID": 43,
     "ProductName": "Carmen Satin Dress",
-    "FabricID": "64428ce90a16d28d693cae03",
+    "FabricID": "1",
     "PromotionID": null,
     "ProductDetail": "A beautiful addition to any event, our Carmen Satin dress will have everyone feeling confident with her sleek and flirty details, while still allowing for some moderate coverage! Carmen features a pleated gathering and a panel detail at the bust and is then finished off with crisscross straps in the back. ",
     "ProductImage": "https://cdn.shopify.com/s/files/1/0557/7988/5156/products/carmen-satin_lifestyle_main-hover.jpg?v=1672263238",
@@ -1210,6 +1090,6 @@
     },
     "MakeToOrder": "189.00",
     "HomeTryOn": "10.00",
-    "ReadyToShip": "245.00",
+    "ReadyToShip": "245.00"
   }
 ]
