@@ -78,11 +78,37 @@ export class UsersService {
       responseType: 'text',
     };
     return this._http
-      .post<any>('users/login/', user, requestOptions)
+      .post<any>('/login/', user, requestOptions)
       .pipe(
         map((res) => JSON.parse(res) as Array<Users>),
         retry(3),
         catchError(this.handleError)
       );
+  }
+
+  putUser(userId: any): Observable<any> {
+    const headers = new HttpHeaders().set(
+      'Content-Type',
+      'application/json;charset=utf-8'
+    );
+
+    const requestOptions: Object = {
+      headers: headers,
+      responseType: 'text',
+    };
+    return this._http
+      .put<any>('/users', JSON.stringify(userId), requestOptions)
+      .pipe(
+        map((res) => JSON.parse(res) as Array<Users>),
+        retry(3),
+        catchError(this.handleError)
+      );
+  }
+
+  setUserLogin(user: any) {
+    sessionStorage.setItem('userLogin', JSON.stringify(user));
+  }
+  getUserLogin() {
+    return JSON.parse(sessionStorage.getItem('userLogin')!);
   }
 }

@@ -6,5 +6,6 @@ export class Users {
     public password: string = '',
     public email: string = '',
     public phoneNumber: string = '',
+    public address: string = '',
   ){}
 }

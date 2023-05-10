@@ -20,47 +20,66 @@
 
   <!-- Nav bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-beige h-60px">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="bi bi-justify"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-between px-2" id="navbarSupportedContent">
-          <div>
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item dropdown px-2">
-                      <a class="nav-link fs-20" style="color: black;">SHOP</a>
-                      <ul class="dropdown-content">
-                        <li><a href="#">SHOP BY FABRIC</a></li>
-                        <li><a href="#">SHOP BY COLOR</a></li>
-                        <li><a href="#">SHOP BEST SELLER</a></li>
-                      </ul>
-                  </li>
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="bi bi-justify"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between px-2" id="navbarSupportedContent">
+        <div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown px-2">
+                    <a class="nav-link fs-20" style="color: black;">SHOP</a>
+                    <ul class="dropdown-content px-0">
+                      <li><a href="#">SHOP BY FABRIC</a></li>
+                      <li><a href="#">SHOP BY COLOR</a></li>
+                      <li><a href="#">SHOP BEST SELLER</a></li>
+                    </ul>
+                </li>
 
-                  <li class="nav-item px-2">
-                      <a class="nav-link fs-20" style="color: black;" href="#">PROMOTION</a>
-                  </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link fs-20" style="color: black;" href="#">PROMOTION</a>
+                </li>
 
-                  <li class="nav-item px-2">
-                      <a class="nav-link fs-20" style="color: black;" href="#">HOME TRY ON</a>
-                  </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link fs-20" style="color: black;" href="#">HOME TRY ON</a>
+                </li>
 
-              </ul>
-          </div>
-
-          <div>
-              <a class="navbar-brand mb-2 mb-lg-0 fs-25" [routerLink]="['/']">ELITE</a>
-          </div>
-
-          <div class=" d-flex">
-              <a Class="nav-link px-3 fs-20" href="#">BLOG</a>
-              <a Class="nav-link px-3 fs-20" href="#">OUR STORY</a>
-              <i class="bi bi-search ps-5 px-3" style="font-size: 20px;"></i>
-              <i class="bi bi-person-circle px-3" style="font-size: 20px;"></i>
-              <i class="bi bi-handbag px-3" style="font-size: 20px;"></i>
-          </div>
+            </ul>
         </div>
+
+        <div>
+            <a class="navbar-brand mb-2 mb-lg-0 fs-25" style="font-family: Brixton2" routerLink="/home">ELITE</a>
+        </div>
+
+        <div class=" d-flex" *ngIf="!isLogin">
+            <a Class="nav-link px-3 fs-20" href="#">BLOG</a>
+            <a Class="nav-link px-3 fs-20" routerLink="/story">OUR STORY</a>
+            <i class="bi bi-search ps-5 px-3" style="font-size: 20px;"></i>
+            <li class="nav-item dropdown">
+              <a class="nav-link fs-20"><i class="bi bi-person-circle px-3"></i></a>
+              <ul class="dropdown-content px-0">
+                <li><a href="#">My account</a></li>
+                <li><a href="#">Log out</a></li>
+              </ul>
+          </li>
+            <i class="bi bi-handbag px-3" style="font-size: 20px;"></i>
+        </div>
+        <div class=" d-flex" *ngIf="isLogin">
+          <a Class="nav-link px-3 fs-20" href="#">BLOG</a>
+          <a Class="nav-link px-3 fs-20" routerLink="/story">OUR STORY</a>
+          <i class="bi bi-search ps-5 px-3" style="font-size: 20px;"></i>
+          <li class="nav-item dropdown">
+            <a class="nav-link fs-20" [routerLink]="'/my-profile'"><i class="bi bi-person-circle px-3"></i>{{ userAccount.firstName }}</a>
+            <ul class="dropdown-content px-0">
+              <li><a href="#">My account</a></li>
+              <li><a (click)="logOut()">Log out</a></li>
+            </ul>
+        </li>
+          <i class="bi bi-handbag px-3" style="font-size: 20px;"></i>
       </div>
-    </nav>
+      </div>
+    </div>
+  </nav>
 </div>
 <!-- HEADER -->
 
@@ -73,10 +92,7 @@
 
 <!-- <app-homepage class="content"></app-homepage> -->
 
-<div class="content">
-  <router-outlet></router-outlet>
-  <button routerLink="/shopfabric">sang fabric </button>
-</div >
+<router-outlet></router-outlet>
 
 
 <!-- FOOTER -->

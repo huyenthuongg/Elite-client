@@ -56,11 +56,11 @@
     <p class="update_p1">UPDATE YOUR PROFILE</p>
     <div class="form-row">
       <label class="form__label" for="">First Name</label>
-      <input class="form-input" id="" type="text" />
+      <input class="form-input" id="" type="text" #name="ngModel" name="firstName" [(ngModel)]="userAccount.firstName"/>
     </div>
     <div class="form-row">
       <label class="form__label" for="">Last Name</label>
-      <input class="form-input" type="text" />
+      <input class="form-input" type="text" #name="ngModel" name="lastName" [(ngModel)]="userAccount.lastName"/>
     </div>
     <div class="form-row">
       <label class="form__label" for="">Gender</label>
@@ -83,14 +83,14 @@
     </div>
     <div class="form-row">
       <label class="form__label" for="">Address</label>
-      <input class="form-input" type="text" />
+      <input class="form-input" type="text" #name="ngModel" name="address" [(ngModel)]="userAccount.address"/>
     </div>
     <div class="form-row">
       <label class="form__label" for="">Number Phone</label>
-      <input class="form-input" type="text" />
+      <input class="form-input" type="text" #name="ngModel" name="phoneNumber" [(ngModel)]="userAccount.phoneNumber"/>
     </div>
     <div class="choose_container_update">
-      <button class="chosse_update">SAVE</button>
+      <button class="chosse_update" (click)="putUser()">SAVE</button>
     </div>
   </div>
   <div class="changePW" *ngIf="showChangePW">
