@@ -1,16 +1,16 @@
 <div class="san_pham">
     <p class="mo_ta_text">MENU/SATIN/SKY SATIN DRESS</p>
-    <div class="container">
+    <div *ngFor="let p of product" class="container">
       <div class="left">
-        <img class="anh_san_pham" src={{product.ProductImage}} alt="">
+        <img class="anh_san_pham" src={{p.ProductImage}} alt="">
       </div>
       <div class="right">
         <p style="font-size: 48px">
-          <b>{{product.ProductName}}</b>
+          <b>{{p.ProductName}}</b>
         </p>
         <img src="\assets\myprofile\Group 35939.png" class="sao1" />
         <div class="container_gia_goc">
-          <p class="gia_goc">{{product.MakeToOrder}}</p>
+          <p class="gia_goc">{{p.MakeToOrder}}</p>
         </div>
         <table class="table" style="border: 2px solid rgba(167, 113, 126, 1)">
           <tbody>

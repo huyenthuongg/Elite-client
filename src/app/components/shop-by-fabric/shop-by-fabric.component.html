@@ -37,13 +37,13 @@
                 </select>
                 <hr>
             </div>
-            <div *ngFor="let p of product" class=" d-flex justify-content-between fl-wrap text-center" style="flex-wrap: wrap;">
-                <div>
-                    <img src="{{product.ProductImage}}" class="w-22vw" alt="">
-                    <p class="fs-20">{{product.ProductName}}</p>
-                    <p>$189.00</p>
+            <div class=" d-flex justify-content-between fl-wrap text-center" style="flex-wrap: wrap;">
+                <div *ngFor="let p of product" class="my-2">
+                    <img  src="{{p.ProductImage}}" class="w-22vw" alt="">
+                    <p class="fs-20">{{p.ProductName}}</p>
+                    <p>${{p.MakeToOrder}}</p>
                     <div class="d-flex justify-content-evenly ">
-                        <button class="button3">Make to order</button>
+                        <button (click)="showDetailProduct(p)" class="button3">Make to order</button>
                         <button class="button3">Ready to ship</button>
                         <button class="button3">Home try on</button>
                     </div>

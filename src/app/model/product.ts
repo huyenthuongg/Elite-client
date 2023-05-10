@@ -4,9 +4,8 @@ import { SubPromotion } from "./subpromotion";
 
 export class Product {
   constructor(
-    public _id: string,
     public ProductName: string,
-    public ProductId: string,
+    public ProductID: string,
     public Fabric: SubFabric,
     public note: string,
     public ProductDetail: string,

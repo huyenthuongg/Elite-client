@@ -17,7 +17,7 @@ const routes: Routes = [
   {path: "shopbycolor", component: ShopByColorComponent},
   {path: "promotions", component: PromotionComponent},
   {path: "viewproductdetail", component: ProductDetailComponent},
-  {path:"shopbycolor/:id", component: ProductDetailComponent}
+  {path:"shopbyfabric/:id", component: ProductDetailComponent}
 ];
 
 @NgModule({

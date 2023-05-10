@@ -19,7 +19,7 @@ export class OurStoryService {
   return this._http.get<any>("/ourstory",requestOptions).pipe(
   map(res=>JSON.parse(res) as Array<OurStory>),
   retry(3),
-  catchError(this.handleError))
+  catchError(this.handleError)) 
   }
   handleError(error:HttpErrorResponse){
   return throwError(()=>new Error(error.message))
