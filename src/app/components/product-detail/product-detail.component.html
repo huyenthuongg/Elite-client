@@ -1,0 +1,294 @@
+<div class="san_pham">
+    <p class="mo_ta_text">MENU/SATIN/SKY SATIN DRESS</p>
+    <div class="container">
+      <div class="left">
+        <img class="anh_san_pham" src={{product.ProductImage}} alt="">
+      </div>
+      <div class="right">
+        <p style="font-size: 48px">
+          <b>{{product.ProductName}}</b>
+        </p>
+        <img src="\assets\myprofile\Group 35939.png" class="sao1" />
+        <div class="container_gia_goc">
+          <p class="gia_goc">{{product.MakeToOrder}}</p>
+        </div>
+        <table class="table" style="border: 2px solid rgba(167, 113, 126, 1)">
+          <tbody>
+            <tr>
+              <td class="" scope="row">1</td>
+              <td>ORDER TYPE</td>
+              <td>
+                <select class="form-select">
+                  <option selected>Made To Order</option>
+                  <option value="option1">Home Try-On</option>
+                  <option value="option2">Ready To Ship</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">2</td>
+              <td>COLOR</td>
+              <td>
+                <select class="form-select">
+                  <option selected>Selection Option</option>
+                  <option value="option1">Orange</option>
+                  <option value="option2">Blue</option>
+                  <option value="option2">Green</option>
+                  <option value="option2">Purple</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">3</td>
+              <td>SIZE</td>
+              <td>
+                <select class="form-select">
+                  <option selected>Selection Option</option>
+                  <option value="option1">4</option>
+                  <option value="option2">6</option>
+                  <option value="option2">8</option>
+                  <option value="option2">10</option>
+                  <option value="option2">12</option>
+                  <option value="option2">14</option>
+                  <option value="option2">16</option>
+                  <option value="option2">18</option>
+                  <option value="option2">20</option>
+                  <option value="option2">22</option>
+                  <option value="option2">24</option>
+                  <option value="option2">26</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">4</td>
+              <td>LENGTH</td>
+              <td>
+                <select class="form-select">
+                  <option selected>Select Option</option>
+                  <option value="option1">
+                    Regular Maxi: 46 in waist to hem
+                  </option>
+                  <option value="option2">Petite Maxi: 41 in waist to hem</option>
+                  <option value="option2">Tall Maxi: 51 in waist to hem</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">5</td>
+              <td>DELIEVRY TIME</td>
+              <td>
+                <select class="form-select">
+                  <option selected>Select Option</option>
+                  <option value="option1">Standard: Ships in 10-12 weeks</option>
+                  <option value="option2">
+                    Rush: Ships in 8 weeks (+30% surcharge)
+                  </option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="quantity">
+          <p class="quantity_text">Quantity</p>
+          <div class="counter-container">
+            <button class="counter-button" (click)="decrement()">-</button>
+            <span class="counter-value">{{ value }}</span>
+            <button class="counter-button" (click)="increment()">+</button>
+          </div>
+        </div>
+        <div class="add">
+          <a>
+            <button class="addcart" type="button">
+              <img
+                src="\assets\productdetail_img\Logo WorldSound (26) 1.png"
+                height="36px"
+                width="43px"
+              />
+              <span class="addcart_text">ADD TO BAG</span>
+            </button>
+          </a>
+          <a>
+            <button type="button" class="buy">
+              <span class="buy_text">BUY</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mo_to_san_pham" col-md-4>
+    <hr />
+    <h2>DETAIL:</h2>
+    <p class="detail">
+      {{product.ProductDetail}}
+    </p>
+    <h2>SHIPPING & RETURNS:</h2>
+    <p class="detail">
+      All made-to-order items are final sale and cannot be returned or exchanged.
+      Shipping speed is selected at checkout and does not include the time it
+      takes to produce your garment
+    </p>
+  </div>
+  <hr />
+  <div class="danh_gia_san_pham">
+    <h2>REVIEWS</h2>
+    <table class="bang_review">
+      <tr>
+        <td>
+          <div class="review">
+            <img
+              src="\assets\productdetail_img\user 1.png"
+              width="40px"
+              height="40px"
+            />
+            <div class="review_text">
+              <p>NGUYEN HOANG TINH</p>
+              <img src="\assets\myprofile\Group 35939.png" width="200px" /><br />
+              <span class="review_1"
+                >12:40 10/10/2022<br />
+                My made to fit dress came in and fit me perfectly ! no alterations
+                needed ! Love the material and fit! Had a built in bra
+                aswell!10/10
+              </span>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="review">
+            <img
+              src="\assets\productdetail_img\user 1.png"
+              width="40px"
+              height="40px"
+            />
+            <div class="review_text">
+              <p>NGUYEN HOANG TINH</p>
+              <img src="\assets\myprofile\Group 35939.png" width="200px" /><br />
+              <span class="review_1"
+                >12:40 10/10/2022<br />
+                Very pretty dress, fabric is soft . But If you don’t want it
+                clinging to certain areas I’d recommend sizing up from usual size.
+                I tried on two sizes I went with the bigger size in the rusty
+                color.
+              </span>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <button (click)="showQuestion1()" class="question">Any A Question?</button>
+  <div class="mb-3">
+    <div class="input_email">
+      <label for="exampleFormControlInput1" class="form-label"
+        >*Email address:</label
+      >
+      <br />
+      <input
+        type="email"
+        class="form-control"
+        id="exampleFormControlInput1"
+        placeholder="name@example.com"
+        class="input_question"
+      />
+    </div>
+    <div class="input_email">
+      <label for="exampleFormControlInput1" class="form-label">*Your Name:</label>
+      <br />
+      <input
+        type="email"
+        class="form-control"
+        id="exampleFormControlInput1"
+        class="input_question"
+      />
+    </div>
+  </div>
+  <div class="mb-31">
+    <label for="exampleFormControlTextarea1" class="form-label">*Question:</label>
+    <br /><textarea
+      class="form-control"
+      id="exampleFormControlTextarea1"
+      rows="3"
+      class="input_question1"
+    ></textarea>
+  </div>
+  <div >
+    <button class="post">POST</button>
+  </div>
+  <hr />
+  <!-- (click)="openModal(template)"  -->
+  <h2 class="fs-25">YOU MAY ASLO LIKE</h2>
+  <!-- <p class="fs-20">Tried and true from our Revelry crew, you'll love these style favorites.</p> -->
+  
+  <div class="my-7 container">
+    <div class="mx-5 d-flex flex-wrap text-center container">
+      <div>
+        <img src="/assets/homepage/skye-satin.png" class="w-20vw mx-2" alt="" />
+        <p class="fs-20">Skye Satin Dress</p>
+        <p>$189.00</p>
+        <div class="d-flex">
+          <button class="button2">Make to order</button>
+          <button class="button2">Ready to ship</button>
+          <button class="button2">Home try on</button>
+        </div>
+      </div>
+  
+      <div>
+        <img src="/assets/homepage/rory-satin.png" class="w-20vw mx-2" alt="" />
+        <p class="fs-20">Rory Satin Dress</p>
+        <p>$189.00</p>
+        <div class="d-flex">
+          <button class="button2">Make to order</button>
+          <button class="button2">Ready to ship</button>
+          <button class="button2">Home try on</button>
+        </div>
+      </div>
+  
+      <div>
+        <img
+          src="/assets/homepage/harper-chiffon.png"
+          class="w-20vw mx-2"
+          alt=""
+        />
+        <p class="fs-20">Harper Chiffon Dress</p>
+        <p>$189.00</p>
+        <div class="d-flex">
+          <button class="button2">Make to order</button>
+          <button class="button2">Ready to ship</button>
+          <button class="button2">Home try on</button>
+        </div>
+      </div>
+  
+      <div>
+        <img src="/assets/homepage/jade-satin.png" class="w-20vw mx-2" alt="" />
+        <p class="fs-20">Jade Satin Dress</p>
+        <p>$189.00</p>
+        <div class="d-flex">
+          <button class="button2">Make to order</button>
+          <button class="button2">Ready to ship</button>
+          <button class="button2">Home try on</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <ng-template #template>
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </ng-template> -->
+  

@@ -19,5 +19,20 @@
         "secure": true,
         "changeOrigin":true,
         "logLevel":"debug"
+    },
+    {
+        "context": ["/product"],
+        "target": "http://localhost:3002",
+        "secure": true,
+        "changeOrigin":true,
+        "logLevel":"debug"
+    },
+    {
+        "context": ["/review"],
+        "target": "http://localhost:3002",
+        "secure": true,
+        "changeOrigin":true,
+        "logLevel":"debug"
     }
+    
 ]

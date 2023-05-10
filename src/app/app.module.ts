@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { PaymentComponent } from './components/payment/payment.component';
 import { ShopByColorComponent } from './components/shop-by-color/shop-by-color.component';
 import { PromotionComponent } from './components/promotion/promotion.component';
+import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,8 +23,8 @@ import { PromotionComponent } from './components/promotion/promotion.component';
     CartComponent,
     PaymentComponent,
     ShopByColorComponent,
-    PromotionComponent
-  ],
+    PromotionComponent,
+    ProductDetailComponent ],
   imports: [
     BrowserModule,
     AppRoutingModule,

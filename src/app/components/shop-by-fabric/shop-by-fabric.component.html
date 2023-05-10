@@ -37,67 +37,12 @@
                 </select>
                 <hr>
             </div>
-            <div class=" d-flex justify-content-between fl-wrap text-center" style="flex-wrap: wrap;">
+            <div *ngFor="let p of product" class=" d-flex justify-content-between fl-wrap text-center" style="flex-wrap: wrap;">
                 <div>
-                    <img src="/assets/menu/1-Beige.webp" class="w-22vw" alt="">
-                    <p class="fs-20">Skye Satin Dress</p>
+                    <img src="{{product.ProductImage}}" class="w-22vw" alt="">
+                    <p class="fs-20">{{product.ProductName}}</p>
                     <p>$189.00</p>
                     <div class="d-flex justify-content-evenly ">
-                        <button class="button3">Make to order</button>
-                        <button class="button3">Ready to ship</button>
-                        <button class="button3">Home try on</button>
-                    </div>
-                </div>
-                    
-                <div>
-                    <img src="/assets/menu/1-Beige.webp" class="w-22vw" alt="">
-                    <p class="fs-20">Rory Satin Dress</p>
-                    <p>$189.00</p>
-                    <div class="d-flex justify-content-evenly">
-                        <button class="button3">Make to order</button>
-                        <button class="button3">Ready to ship</button>
-                        <button class="button3">Home try on</button>
-                    </div>
-                </div>
-        
-                <div>
-                    <img src="/assets/menu/1-Beige.webp" class="w-22vw" alt="">
-                    <p class="fs-20">Harper Chiffon Dress</p>
-                    <p>$189.00</p>
-                    <div class="d-flex justify-content-evenly">
-                        <button class="button3">Make to order</button>
-                        <button class="button3">Ready to ship</button>
-                        <button class="button3">Home try on</button>
-                    </div>
-                </div>
-
-                <div>
-                    <img src="/assets/menu/1-Beige.webp" class="w-22vw" alt="">
-                    <p class="fs-20">Skye Satin Dress</p>
-                    <p>$189.00</p>
-                    <div class="d-flex justify-content-evenly ">
-                        <button class="button3">Make to order</button>
-                        <button class="button3">Ready to ship</button>
-                        <button class="button3">Home try on</button>
-                    </div>
-                </div>
-                    
-                <div>
-                    <img src="/assets/menu/1-Beige.webp" class="w-22vw" alt="">
-                    <p class="fs-20">Rory Satin Dress</p>
-                    <p>$189.00</p>
-                    <div class="d-flex justify-content-evenly">
-                        <button class="button3">Make to order</button>
-                        <button class="button3">Ready to ship</button>
-                        <button class="button3">Home try on</button>
-                    </div>
-                </div>
-        
-                <div>
-                    <img src="/assets/menu/1-Beige.webp" class="w-22vw" alt="">
-                    <p class="fs-20">Harper Chiffon Dress</p>
-                    <p>$189.00</p>
-                    <div class="d-flex justify-content-evenly">
                         <button class="button3">Make to order</button>
                         <button class="button3">Ready to ship</button>
                         <button class="button3">Home try on</button>

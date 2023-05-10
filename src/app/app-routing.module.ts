@@ -7,6 +7,7 @@ import { ShopByColorComponent } from './components/shop-by-color/shop-by-color.c
 import { CartComponent } from './components/cart/cart.component';
 import { PaymentComponent } from './components/payment/payment.component';
 import { PromotionComponent } from './components/promotion/promotion.component';
+import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 const routes: Routes = [
   {path:"home", component: HomepageComponent},
   {path: "story", component: OurStoryComponent},
@@ -14,7 +15,9 @@ const routes: Routes = [
   {path:"cart", component: CartComponent},
   {path:"payment", component: PaymentComponent},
   {path: "shopbycolor", component: ShopByColorComponent},
-  {path: "promotions", component: PromotionComponent}
+  {path: "promotions", component: PromotionComponent},
+  {path: "viewproductdetail", component: ProductDetailComponent},
+  {path:"shopbycolor/:id", component: ProductDetailComponent}
 ];
 
 @NgModule({
