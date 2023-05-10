@@ -9,6 +9,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { ProductDetailComponent } from "./components/product-detail/ProductDetailComponent";
 import { OurStory } from './model/ourstory';
 import { ShopByFabricComponent } from './components/shop-by-fabric/shop-by-fabric.component';
+import { MyProfileComponent } from './components/my-profile/my-profile.component';
 
 const routes: Routes = [
   {path:"", component: LoginpageComponent},
@@ -21,7 +22,8 @@ const routes: Routes = [
   { path: 'color', component: ProductDetailComponent },
   { path: 'fabric', component: ProductDetailComponent },
   {path: "story", component: OurStory},
-  {path:"shopfabric", component: ShopByFabricComponent}
+  {path:"shopfabric", component: ShopByFabricComponent},
+  {path:"my-profile", component: MyProfileComponent}
 ];
 
 @NgModule({

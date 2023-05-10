@@ -64,9 +64,19 @@ export class LoginpageComponent {
     this._userService.login(this.user).subscribe({
       next: (data) => {
         this.user = data;
-        console.log(this.user);
-        alert('Login successfully');
-        this.router.navigate(['/home']);
+        this._userService.setUserLogin(data);
+        if(this.user.email == "not exist"){
+          alert('Email is incorrect');
+          this.user = new Users();
+          return;
+        } else if(this.user.password == "wrong password"){
+          alert('Password is incorrect');
+          this.user.password = '';
+          return;
+        } else {
+          alert('Login successfully');
+          this.router.navigate(['/home']);
+        }
       },
       error: (err) => {
         this.userModel = err;
